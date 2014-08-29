@@ -9,7 +9,7 @@
                         <div class="block">
                             <div class="textBlock">
                                 <h4 class="">FLOW &amp;TRAINING  </h4>
-                                <a href="/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
+                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
                                 </br>
                             </div>
 
@@ -31,7 +31,7 @@
                         <div class="block">
                             <div class="textBlock">
                                 <h4 class="">FLOW &amp;TRAINING  </h4>
-                                <a href="/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
+                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
                                 </br>
                             </div>
 
@@ -53,7 +53,7 @@
                         <div class="block">
                             <div class="textBlock">
                                 <h4 class="">FLOW &amp;TRAINING  </h4>
-                                <a href="/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
+                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
                                 </br>
                             </div>
 
@@ -75,7 +75,7 @@
                         <div class="block">
                             <div class="textBlock">
                                 <h4 class="">FLOW &amp;TRAINING  </h4>
-                                <a href="/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
+                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
                                 </br>
                             </div>
 
