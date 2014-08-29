@@ -419,3 +419,6 @@ label {
   width: 20% 1important; }
   .menuMagellan .sub-nav {
     padding-left: 40px; }
+
+#main p {
+  padding: 10px 0; }
