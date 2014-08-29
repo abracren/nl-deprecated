@@ -10,7 +10,7 @@ Template Name: Home
 <?php get_template_part( 'partials/content', 'mainslider' ); ?>
 </div>
 
-<div class="fullWidth aaaBack">
+<div class="fullWidth aaaBack"> 
     <div class="row">
         <div class="medium-12 columns">
             <ul class="medium-block-grid-5 underSlide">
