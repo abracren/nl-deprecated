@@ -6,7 +6,7 @@
 
 	<?php $link =sanitize_title(get_field('titulo_menu_'.$i));?>
 	<a name="<?php echo $link.$i?>"></a>
-	<h3 data-magellan-destination="<?php echo $link.$i?>"><?php the_field('titulo-'.$i);?></h3>
+	<h2 data-magellan-destination="<?php echo $link.$i?>"><?php the_field('titulo-'.$i);?></h2>
 	<?php the_field('contenido-'.$i);?>
 	<?php the_field('contenido-'.$i);?>
 

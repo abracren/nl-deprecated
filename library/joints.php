@@ -133,6 +133,7 @@ function joints_scripts_and_styles() {
     wp_enqueue_style( 'owl-theme', get_template_directory_uri() . '/bower_components/OwlCarousel/owl-carousel/owl.theme.css', array(), $theme_version, 'all' );
     wp_enqueue_style( 'owl-transitions', get_template_directory_uri() . '/library/css/transitions.css', array(), $theme_version, 'all' );
     wp_enqueue_style( 'socialicons', get_template_directory_uri() . '/library/css/socialIcons.css', array(), $theme_version, 'all' );
+    wp_enqueue_style( 'fonts-extra', get_template_directory_uri() . '/library/css/fonts/stylesheet.css', array(), $theme_version, 'all' );
     
 
     

@@ -1,7 +1,7 @@
 3.3.7 (Maptastic Maple)
-e8b4fdc6e08d8ed1d8f9462be5eb62011da452dc
+e2c229508dc72af0a0a44f862407e64f7b3a279b
 o:Sass::Tree::RootNode:@has_childrenT:
-@linei:@template"¶ö// Foundation by ZURB
+@linei:@template"®ö// Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
@@ -631,7 +631,7 @@ e8b4fdc6e08d8ed1d8f9462be5eb62011da452dc
 
 // Magellan
 
-$include-html-magellan-classes: $include-html-classes;
+//$include-html-magellan-classes: $include-html-classes;
 
  $magellan-bg: #333;
  $magellan-padding: 30px;
@@ -1853,8 +1853,9 @@ alphai:	bluei∫;0;&"primary-color;o;	;@;o;;i?;i;o;;i?;i;@o;
  * $label-font-color-alt: #fff;
  * $label-font-family: $body-font-family; */o;
 ;iu;	@;
-[ ;;;["/* Magellan */o;;0;iw;0;	@;
-[ ;o:!Sass::Script::Tree::Variable;@;iw:@underscored_name"include_html_classes;	@;&"include-html-classes;o;	;@;o;;iw;i;;o;;iw;i&;@;&""include-html-magellan-classes;o;	;@;o;;iw;i;;o;;iw;i;@o;;0;iy;0;	@;
+[ ;;;["/* Magellan */o;
+;iw;	@;
+[ ;;;["@/*$include-html-magellan-classes: $include-html-classes; */o;;0;iy;0;	@;
 [ ;o;	;@;iy;o;	;@;o;;iy;i;o;;iy;i;@;o;<;	@;={	;>i8;?i8;@i;Ai8;0;&"magellan-bg;o;	;@;o;;iy;i;o;;iy;i;@o;;0;iz;0;	@;
 [ ;o;	;@;iz;o;	;@;o;;iz;i;o;;iz;i;@;o;"
 ;#"	30px;$[ ;	@;%["px;i#;&"magellan-padding;o;	;@;o;;iz;i;o;;iz;i;@o;
@@ -2351,7 +2352,7 @@ alphai:	bluei∫;0;&"primary-color;o;	;@;o;;i?;i;o;;i?;i;@o;
 ;ii;	@;
 [ ;;;["+/* Background color for the top bar */o;;0;ij;0;	@;
 [ ;o;	;@;ij;o;	;@;o;;ij;i;o;;ij;i;@;o;<;	@;={	;>iˇ;?iˇ;@i;Aiˇ;0;&"topbar-bg-color;o;	;@;o;;ij;i;o;;ij;i;@o;;0;ik;0;	@;
-[ ;o;B;@;ik;C"topbar_bg_color;	@;&"topbar-bg-color;o;	;@;o;;ik;i";o;;ik;i;@;&"topbar-bg;o;	;@;o;;ik;i";o;;ik;i;@o;
+[ ;o:!Sass::Script::Tree::Variable;@;ik:@underscored_name"topbar_bg_color;	@;&"topbar-bg-color;o;	;@;o;;ik;i";o;;ik;i;@;&"topbar-bg;o;	;@;o;;ik;i";o;;ik;i;@o;
 ;im;	@;
 [ ;;;["/* Height and margin */o;;0;in;0;	@;
 [ ;o;	;@;in;o;	;@;o;;in;i;o;;in;i;@;o;"
@@ -2393,7 +2394,7 @@ alphai:	bluei∫;0;&"primary-color;o;	;@;o;;i?;i;o;;i?;i;@o;
  * $topbar-link-font-family: $body-font-family; */o;;0;iä;0;	@;
 [ ;o;	;@;iä;o;	;@;o;;iä;i,;o;;iä;i#;@;o;9;	@;;;;"uppercase;&"topbar-link-text-transform;o;	;@;o;;iä;i,;o;;iä;i;@o;;0;iã;0;	@;
 [ ;o:"Sass::Script::Tree::Operation;@:@operator:div:@operand2o;	;@;iã;o;	;@;o;;iã;i1;o;;iã;i.;@;o;"
-;#"2.3;$@i;	@;%[ ;f2.2999999999999998 ff;iã:@operand1o;B;@;iã;C"topbar_height;	@;&"topbar-height;o;	;@;o;;iã;i+;o;;iã;i;@;	@;o;	;@;o;;iã;i1;@y;@;&"topbar-link-padding;o;	;@;o;;iã;i1;o;;iã;i;@o;
+;#"2.3;$@i;	@;%[ ;f2.2999999999999998 ff;iã:@operand1o;B;@;iã;C"topbar_height;	@;&"topbar-height;o;	;@;o;;iã;i+;o;;iã;i;@;	@;o;	;@;o;;iã;i1;@q;@;&"topbar-link-padding;o;	;@;o;;iã;i1;o;;iã;i;@o;
 ;iç;	@;
 [ ;;;["I/* $topbar-button-font-size: 0.75rem;
  * $topbar-button-top: 7px; */o;;0;iê;0;	@;

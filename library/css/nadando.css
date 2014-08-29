@@ -1,4 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+h1, h2, h3, h4, h5, h6 {
+  color: #00A2D7;
+  font-family: 'Titillium Web', sans-serif; }
+
+p {
+  font-family: 'alless';
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #333; }
+
 #content {
   background-color: #fff; }
 
@@ -398,3 +408,13 @@ label {
 .sidebar {
   background: #f6f6f6;
   height: 100%; }
+
+.menuMagellan {
+  font-size: 1.3em;
+  max-width: 20%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10px; }
+  .menuMagellan .sub-nav {
+    padding-left: 40px; }

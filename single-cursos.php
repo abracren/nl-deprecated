@@ -31,7 +31,7 @@ single-bookmarks.php
 	<?php for($i=1;$i<6;$i++){?>
 	<?php $link =sanitize_title(get_field('titulo_menu_'.$i));?>
 
-	<dd data-magellan-arrival="<?php echo $link.$i?>"><a href="#<?php echo $link.$i?>"><?php the_field('titulo_menu_'.$i);?></a></dd>
+	<dd data-magellan-arrival="<?php echo $link.$i?>"><a href="#<?php echo $link.$i?>"><span class="menuMagellan"><?php the_field('titulo_menu_'.$i);?></span></a></dd>
 	<?php } ?>
 	  </dl>
 	</div>
