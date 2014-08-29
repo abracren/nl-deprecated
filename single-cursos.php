@@ -14,7 +14,7 @@ single-bookmarks.php
 ?>
 
 <?php get_header(); ?>
-	  <div class="backMenu" style="background-color:#333;width:100%;min-height:85px;position:fixed;top:0;display:none;"></div>
+	  <div class="backMenu" style="background-color:#333;width:100%;min-height:86px;position:fixed;top:0;display:none;"></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	  <?php get_template_part( 'partials/content', 'blogheader' ); ?>
@@ -31,7 +31,7 @@ single-bookmarks.php
 	<?php for($i=1;$i<6;$i++){?>
 	<?php $link =sanitize_title(get_field('titulo_menu_'.$i));?>
 
-	<dd data-magellan-arrival="<?php echo $link.$i?>"><a href="#<?php echo $link.$i?>"><span class="menuMagellan"><?php the_field('titulo_menu_'.$i);?></span></a></dd>
+	<dd data-magellan-arrival="<?php echo $link.$i?>"><a href="#<?php echo $link.$i;?>" class="ddMagellan"><span class="menuMagellan"><?php the_field('titulo_menu_'.$i);?></span></a></dd>
 	<?php } ?>
 	  </dl>
 	</div>

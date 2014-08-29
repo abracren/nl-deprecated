@@ -444,9 +444,9 @@ p{
 }
 
 .NombreHeader {
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 40px;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
 }
 
 .midHeader {
@@ -512,16 +512,31 @@ label {
     font-weight: bold;
     text-align: center;
             padding-left: 10px;
-            width:20%1important;
 
     .sub-nav{
         padding-left: 40px;
+        
     }
+
 }
+    .ddMagellan{
+        min-width:20%;
+        text-align: center!important;
+
+    }
+    .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+            background-color: transparent!important;
+        
+        }
 #main{
     h1,h2,h3,h4,h5,h6{
 }
     p{
         padding: 10px 0;
     }
+}
+
+
+
+element.style {
 }
