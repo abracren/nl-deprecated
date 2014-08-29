@@ -6,6 +6,11 @@ $('.cusesDropdown').slideToggle( "slow" );
 $('.cusesDropdown').addClass('cursesBig');
 
 });
+		$('.menu-item-141').click(function() {
+$('.cusesDropdown').slideToggle( "slow" );
+$('.cusesDropdown').addClass('cursesBig');
+
+});
 jQuery.fn.onPositionChanged = function (trigger, millis) {
     if (millis == null) millis = 100;
     var o = $(this[0]); // our jquery object
