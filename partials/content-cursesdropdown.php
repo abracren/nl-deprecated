@@ -9,7 +9,7 @@
                         <div class="block">
                             <div class="textBlock">
                                 <h4 class="">FLOW &amp;TRAINING  </h4>
-                                <a href="#"> NIVEL 1></a>
+                                <a href="/cursos/lowtraining-nivel-1/"> NIVEL 1></a>
                                 </br>
                             </div>
 
