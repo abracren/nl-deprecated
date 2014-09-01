@@ -2,17 +2,33 @@
 						
 <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 	
-	<?php for($i=1;$i<6;$i++){?>
+	
+  <?php if( have_rows('seccion') ):
 
-	<?php $link =sanitize_title(get_field('titulo_menu_'.$i));?>
-	<a name="<?php echo $link.$i?>"></a>
-	<h1 data-magellan-destination="<?php echo $link.$i?>"><?php the_field('titulo-'.$i);?></h1>
-	<?php the_field('contenido-'.$i);?>
-	<?php the_field('contenido-'.$i);?>
+ 	// loop through the rows of data
+    while ( have_rows('seccion') ) : the_row();
+
+        // display a sub field value
+        ?>
+        	<?php $link =sanitize_title(get_sub_field('titulo_menu'));?>
+        	<a name="<?php echo $link?>"></a>
+        	<h2 data-magellan-destination="<?php echo $link?>"><?php the_sub_field('titulo');?></h2>
+        	<?php the_sub_field('contenido');?>
 
 
-	<?php } ?>
 
+
+
+<?php
+    endwhile;
+
+else :
+
+    // no rows found
+
+endif;
+
+?>
 
 	
 
@@ -22,8 +38,8 @@
 	
 
 
-	    <?php the_content(); ?>
-	    <?php wp_link_pages(); ?>
+	    <?php// the_content(); ?>
+	    <?php //wp_link_pages(); ?>
 	
 		
 

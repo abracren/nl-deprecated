@@ -3,8 +3,8 @@
   <?php get_template_part( 'partials/content', 'blogheader' ); ?>
 
 
-<div class="fullWidth oooBack"> 
-a
+<div class="fullWidth oooBack2"> 
+
 </div>
 
 			

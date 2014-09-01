@@ -41,19 +41,23 @@
 <!-- 	<div class="off-canvas-wrap" data-offcanvas> -->
 		<div class="inner-wrap">
 			<div id="container">
-				<div class="fullWidth dddBack bannerTop" > 
+				<div class="fullWidth tripleTresBack bannerTop" > 
 					<header class="header" role="banner">
 
-						<div id="inner-header" class="row">
-							<div class="medium-3 columns">
-									
-									<div class="tituloChicoUp">APRENDE A NADAR MEJOR</div>
-								</div>
-								<div class="medium-3 columns">
 
-									<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' );?>" >
-							<input type="text" value="" name="s" id="s" class="search-query  "placeholder="Buscar" />
-							</form>
+						<div id="inner-header" class="row hide-for-small">
+
+							<div class="medium-3 columns">
+							.	<div class=" logoHeader2" style=""><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/logo.png"/></a></div>
+
+							</div>
+							<div class="medium-4 columns">
+								<div class="tituloHeader"> NADANDO LIBRE</div>
+							</div>
+							<div class="medium-3 columns">
+								<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' );?>" >
+									<input type="text" value="" name="s" id="s" class="search-query  "placeholder="Buscar" />
+								</form>
 							</div>
 							<div class="medium-2 columns">
 								<ul class="soc">
@@ -62,13 +66,13 @@
 									    <li><a class="soc-youtube soc-icon-last" href="#"></a></li>
 								</ul>
 							</div>
-							<div class="medium-4 columns buttonTop">
+							<!-- <div class="medium-4 columns buttonTop">
 								<ul class="button-group">
 									  <li><a href="#" class="button tiny">Contacto</a></li>
 									  <li><a href="#" class="button tiny">Registrate</a></li>
 									  <li><a href="#" class="button tiny">Trabaja con Nosotros</a></li>
 								</ul>
-							</div>
+							</div> -->
 
 							 <?php// get_template_part( 'partials/nav', 'offcanvas' ); ?>
 
@@ -83,16 +87,23 @@
 					</header> <!-- end header -->
 				</div>
 				<div class="fullWidth darkGrayBack"> 
-					<div class="row midHeader">
-						<div class="medium-6 columns NombreHeader">Nadando Libre</div>
-						<div class="medium-6 columns logoHeader"><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/logo.png"/></div>
-					</div>
+					<!--<div class="row midHeader">
+						<div class="medium-6 columns NombreHeader"><a href="<?php echo home_url(); ?>" rel="nofollow">
+									<?php bloginfo('name'); ?>
+								</a></div>
+						 <div class="medium-6 columns logoHeader"><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/logo.png"/></div>
+					 </div>-->
 					
 				</div>
-					<div class="row">
-						<div class="large-12 columns">
+				<div class="fullWidth darkGrayBack"> 
+
+					<div class="row ">
+						<div class="medium-8 medium-offset-4 columns">
 						<?php get_template_part( 'partials/nav', 'topbar' ); ?>
 						</div>
 					</div>
+					
+				</div>
 				</div>
 				<?php get_template_part( 'partials/content', 'cursesdropdown' ); ?>
+				<?php get_template_part( 'partials/content', 'expresdropdown' ); ?>

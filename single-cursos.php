@@ -14,10 +14,13 @@ single-bookmarks.php
 ?>
 
 <?php get_header(); ?>
-	  <div class="backMenu" style="background-color:#333;width:100%;min-height:86px;position:fixed;top:0;display:none;"></div>
+	  <div class="backMenu" style=""></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	  <?php get_template_part( 'partials/content', 'blogheader' ); ?>
+	  <?php// get_template_part( 'partials/content', 'blogheader' ); ?>
+	  <?php //get_template_part( 'partials/content', 'cursoheader' ); ?>
+	  <?php get_template_part( 'partials/content', 'cursoheaderImagen' ); ?>
+
 
 
 			<div class="fullWidth oooBack">
@@ -26,13 +29,27 @@ single-bookmarks.php
 		
 	  <div class="magellanContainer" style=""data-magellan-expedition="fixed">
 	  <dl class="sub-nav">
-	   
+	    <?php if( have_rows('seccion') ):
 
-	<?php for($i=1;$i<6;$i++){?>
-	<?php $link =sanitize_title(get_field('titulo_menu_'.$i));?>
+ 	// loop through the rows of data
+	    while ( have_rows('seccion') ) : the_row();
 
-	<dd data-magellan-arrival="<?php echo $link.$i?>" class="ddMagellan"><a href="#<?php echo $link.$i;?>" ><span class="menuMagellan"><?php the_field('titulo_menu_'.$i);?></span></a></dd>
-	<?php } ?>
+	        // display a sub field value
+	        ?>
+	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'));?>
+	        	<dd data-magellan-arrival="<?php echo $link?>"><a href="#<?php echo $link?>"><span class="menuMagellan"><?php the_sub_field('titulo_menu');?></span></a></dd>
+
+
+	<?php
+	    endwhile;
+
+	else :
+
+	    // no rows found
+
+	endif;
+
+	?>
 	  </dl>
 	</div>
 	</div>

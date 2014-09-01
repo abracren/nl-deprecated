@@ -5,6 +5,9 @@ Template Name: Full Width (No Sidebar)
 ?>
 
 <?php get_header(); ?>
+<div class="fullWidth oooBack"> 
+
+</div>
 			
 			<div id="content">
 			

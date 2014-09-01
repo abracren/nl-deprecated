@@ -1,13 +1,13 @@
 <?php get_header(); ?>
-							<div class="fullWidth oooBack"> 
-								a
+							<div class="fullWidth oooBack2"> 
+								
 							</div>
 
 			<div id="content">
 			
-				<div id="inner-content" class="row clearfix">
+				<div id="inner-content" class="row clearfix blogPage">
 			
-				    <div id="main" class="large-8 medium-8 columns clearfix" role="main">
+				    <div id="main" class="large-8 medium-8 columns clearfix equalBlog" role="main">
 
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					

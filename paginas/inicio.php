@@ -6,14 +6,14 @@ Template Name: Home
 
 <?php get_header(); ?>
 
-<div class="fullWidth dddBack">			
+<div class="fullWidth dddBack hide-for-small">			
 <?php get_template_part( 'partials/content', 'mainslider' ); ?>
 </div>
 
 <div class="fullWidth aaaBack"> 
     <div class="row">
         <div class="medium-12 columns">
-            <ul class="medium-block-grid-5 underSlide">
+            <ul class=" small-block-grid-1 medium-block-grid-5 underSlide">
                 <li>
                     <a class="linkBlock" href="#">
                         <div class="block">
