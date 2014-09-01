@@ -4533,6 +4533,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/diagonal-ex-foot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16297,
+		"inputAbbreviatedPath": "\/imagesRoot\/diagonal-ex-foot.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/diagonal-ex-foot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4551,6 +4562,28 @@
 		"initialSize": 2434,
 		"inputAbbreviatedPath": "\/imagesRoot\/newsletter-icon.png",
 		"outputAbbreviatedPath": "\/imagesRoot\/newsletter-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/paypal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8174,
+		"inputAbbreviatedPath": "\/imagesRoot\/paypal.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/paypal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/paypal2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47946,
+		"inputAbbreviatedPath": "\/imagesRoot\/paypal2.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/paypal2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

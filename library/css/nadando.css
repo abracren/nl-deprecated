@@ -638,7 +638,7 @@ label {
     min-width: 100%; }
   .wideCurse .wideCurseIn {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 50%;
     padding: 10px; }
     .wideCurse .wideCurseIn h1 {
@@ -653,7 +653,122 @@ label {
 
 .wideCurse_footer {
   min-height: 100px;
-  background-color: #ddd;
-  width: 50%; }
-  .wideCurse_footer .wideCurseLeft::before {
-    content: 'bla'; }
+  background-color: #336C95;
+  padding: 0; }
+  .wideCurse_footer .wideCurseLeft {
+    background-color: #0C2D4C;
+    height: 100px;
+    color: #fff;
+    padding-top: 10px; }
+    .wideCurse_footer .wideCurseLeft p {
+      font-size: 1em;
+      color: #ddd;
+      margin: 0;
+      padding: 0 !important; }
+  .wideCurse_footer .wideCurseCenter {
+    background-color: #336C95;
+    padding: 0;
+    height: 100px; }
+    .wideCurse_footer .wideCurseCenter img {
+      height: 100px; }
+  .wideCurse_footer .wideCurseRight {
+    background-color: #336C95;
+    height: 100px; }
+    .wideCurse_footer .wideCurseRight img {
+      width: 50%;
+      position: absolute;
+      bottom: 13px;
+      right: 10px; }
+    .wideCurse_footer .wideCurseRight .precioExpress {
+      color: #fff;
+      margin-top: 23px;
+      font-size: 3em;
+      font-weight: 100; }
+
+.thinCurse {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .thinCurse .expressHeaderImageSmall {
+    overflow: hidden;
+    height: 150px; }
+    .thinCurse .expressHeaderImageSmall img {
+      margin-top: -60px; }
+  .thinCurse .wideCurseIn {
+    background-color: #FBFBFB;
+    padding: 10px;
+    max-height: 230px; }
+  .thinCurse h3 {
+    font-size: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: #6B6B6B;
+    margin-bottom: 10px; }
+  .thinCurse p {
+    font-size: .8em; }
+  .thinCurse .requisitos {
+    font-size: .8em;
+    font-weight: bold; }
+  .thinCurse .wideCurse_footer {
+    min-height: 80px;
+    background-color: #336C95;
+    padding: 0; }
+    .thinCurse .wideCurse_footer .wideCurseLeft {
+      background-color: #0C2D4C;
+      height: 80px;
+      color: #fff;
+      padding-top: 10px; }
+      .thinCurse .wideCurse_footer .wideCurseLeft p {
+        font-size: .81em;
+        color: #ddd;
+        margin: 0;
+        padding: 0 !important; }
+    .thinCurse .wideCurse_footer .wideCurseCenter {
+      background-color: #336C95;
+      padding: 0;
+      height: 80px; }
+      .thinCurse .wideCurse_footer .wideCurseCenter img {
+        height: 80px; }
+    .thinCurse .wideCurse_footer .wideCurseRight {
+      background-color: #336C95;
+      height: 80px; }
+      .thinCurse .wideCurse_footer .wideCurseRight img {
+        width: 50%;
+        position: absolute;
+        bottom: 13px;
+        right: 10px; }
+      .thinCurse .wideCurse_footer .wideCurseRight .precioExpress {
+        color: #fff;
+        margin-top: 20px;
+        font-size: 2.3em;
+        font-weight: 100; }
+
+.express .expressTitle {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 70%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; }
+  .express .expressTitle p {
+    color: #fff;
+    padding: 20px 20px 20px 6%;
+    font-weight: 100; }
+  .express .expressTitle .insideDest {
+    position: absolute;
+    width: 4%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 0;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }

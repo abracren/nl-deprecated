@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
 
-$mycolor: #0C2D4C;
-$magellan:#252424;
-
+$mycolor: #0c2d4c;
+$magellan: #252424;
 
 ///utils
 .parallelogram {
@@ -14,16 +13,19 @@ $magellan:#252424;
     overflow: hidden;
     position: relative;
 }
-.grayscale { 
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: url(grayscale.svg); /* Firefox 4+ */
-  filter: gray; /* IE 6-9 */
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg);
+    /* Firefox 4+ */
+    filter: gray;
+    /* IE 6-9 */
 }
-    
+
 ///////////////////
 h1,h2,h3,h4,h5,h6 {
     color: $mycolor;
@@ -36,6 +38,8 @@ p {
     font-size: 1.1em;
     color: #333;
 }
+
+.blogPage {}
 
 #content {
     background-color: #fff;
@@ -71,22 +75,28 @@ p {
     background-color: $magellan;
     min-height: 80px;
 }
+
 .oooBack2 {
     //margin-top: 50px;
-  // border-bottom: 2px solid #ddd;
-       min-height: 100px;
-       border-top: 1px solid #ddd;
+    // border-bottom: 2px solid #ddd;
+    min-height: 100px;
+    border-top: 1px solid #ddd;
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIwLjIzIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-background: -moz-linear-gradient(top,  rgba(229,229,229,0.23) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,0.23)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(229,229,229,0.23) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(229,229,229,0.23) 0%,rgba(255,255,255,0) 70%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(229,229,229,0.23) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(229,229,229,0.23) 0%,rgba(255,255,255,0) 70%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3be5e5e5', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
-
-
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIwLjIzIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 229, 229, 0.23)), color-stop(70%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3be5e5e5', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-8 */
 }
 
 .tripleTresBack {
@@ -571,21 +581,23 @@ label {
         padding-left: 40px;
     }
 }
-.magellanContainer{
-background-color: $magellan;
+
+.magellanContainer {
+    background-color: $magellan;
 }
 
 .ddMagellan {
     //min-width:18%;
     text-align: center !important;
 }
-.backMenu{
-    background-color:$magellan;
-    width:100%;
-    min-height:87px;
-    position:fixed;
-    top:0;
-    display:none;
+
+.backMenu {
+    background-color: $magellan;
+    width: 100%;
+    min-height: 87px;
+    position: fixed;
+    top: 0;
+    display: none;
 }
 
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
@@ -631,9 +643,8 @@ background-color: $magellan;
     margin-top: 20px;
     font-size: 1.1em;
 }
-.soc{
 
-}
+.soc {}
 
 ///////////////////////////////////////
 //Sidebar Cursos
@@ -684,7 +695,7 @@ background-color: $magellan;
 .styckPanel {}
 
 .panelMoreCursos {
-    background-color: $mycolor;;
+    background-color: $mycolor;
     color: white !important;
     h1,h3,h4,h5,h6,p {
         color: #fff;
@@ -697,7 +708,7 @@ background-color: $magellan;
 }
 
 .butCiudad {
-    background-color: $mycolor;;
+    background-color: $mycolor;
     color: #fff;
     padding: 0;
     border-radius: 4px;
@@ -727,11 +738,13 @@ background-color: $magellan;
     border-radius: 4px;
     padding: 10px;
 }
+
 .buyItem {
-    margin-bottom: 50px!important;
+    margin-bottom: 50px !important;
 }
-.location,.moreCursos,{
-    margin-bottom:30px; 
+
+.location,.moreCursos, {
+    margin-bottom: 30px;
     h4 {
         color: $mycolor;
     }
@@ -760,8 +773,9 @@ background-color: $magellan;
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.3);
-      //  background-color: rgba(255,255, 255, 0.3);
-      //background-color: rgba(0, 0, 53, 0.3);
+        //  background-color: rgba(255,255, 255, 0.3);
+        //background-color: rgba(0, 0, 53, 0.3);
+   
     }
     .cursoTitle {
         position: absolute;
@@ -777,14 +791,12 @@ background-color: $magellan;
             font-size: 4em;
             font-family: 'futura_md_btbold';
         }
-        p{
-    //font-family: 'alless';
-                font-family: 'futura_md_btbold';
-
-    color:white;
-    font-size: 3em;
-    font-weight: 100;
-
+        p {
+            //font-family: 'alless';
+            font-family: 'futura_md_btbold';
+            color: white;
+            font-size: 3em;
+            font-weight: 100;
         }
     }
 }
@@ -792,44 +804,186 @@ background-color: $magellan;
 //////////////////////////////
 //Cursos express
 
-.wideCurse{
-min-height: 430px;
-position: relative;
-overflow: hidden;
-padding: 30px;
-    img{
+.wideCurse {
+    min-height: 430px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    img {
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         min-width: 100%;
-
     }
-
-.wideCurseIn{
-    position: absolute;
-    background-color: rgba(255,255,255,.7);
-    width: 50%;
-    padding: 10px;
-    h1{
-        font-size: 2em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bold;
-    color:#6B6B6B;
-    margin-bottom: 0;
-    }
-    p{
-        margin-top: 0;
-        font-size: 1.1em;
+    .wideCurseIn {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 50%;
+        padding: 10px;
+        h1 {
+            font-size: 2em;
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: bold;
+            color: #6B6B6B;
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 0;
+            font-size: 1.1em;
+        }
     }
 }
 
-}
-.wideCurse_footer{
-    min-height: 100px;
-    background-color: #ddd; 
-    width: 50%;
-    .wideCurseLeft::before{
-        content:'bla';
-    }
+$express_footer_h: 100px;
+$express_footer_h_small: 80px;
 
+.wideCurse_footer {
+    min-height: $express_footer_h;
+    background-color: #336C95;
+    padding: 0;
+    .wideCurseLeft {
+        background-color: #0C2D4C;
+        height: $express_footer_h;
+        color: #fff;
+        padding-top: 10px;
+        p {
+            font-size: 1em;
+            color: #ddd;
+            margin: 0;
+            padding: 0 !important;
+        }
+    }
+    .wideCurseCenter {
+        background-color: #336C95;
+        padding: 0;
+        height: $express_footer_h;
+        img {
+            height: $express_footer_h;
+        }
+    }
+    .wideCurseRight {
+        background-color: #336C95;
+        height: $express_footer_h;
+        img {
+            width: 50%;
+            position: absolute;
+            bottom: 13px;
+            right: 10px;
+        }
+        .precioExpress {
+            color: #fff;
+            margin-top: 23px;
+            font-size: 3em;
+            font-weight: 100;
+        }
+    }
+}
+
+.thinCurse {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .expressHeaderImageSmall {
+        overflow: hidden;
+        height: 150px;
+        img {
+            margin-top: -60px;
+        }
+    }
+    .wideCurseIn {
+        background-color: #FBFBFB;
+        padding: 10px;
+        max-height: 230px;
+    }
+    h3 {
+        font-size: 1.5em;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        color: #6B6B6B;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: .8em;
+    }
+    .requisitos {
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .wideCurse_footer {
+        min-height: $express_footer_h_small;
+        background-color: #336C95;
+        padding: 0;
+        .wideCurseLeft {
+            background-color: #0C2D4C;
+            height: $express_footer_h_small;
+            color: #fff;
+            padding-top: 10px;
+            p {
+                font-size: .81em;
+                color: #ddd;
+                margin: 0;
+                padding: 0 !important;
+            }
+        }
+        .wideCurseCenter {
+            background-color: #336C95;
+            padding: 0;
+            height: $express_footer_h_small;
+            img {
+                height: $express_footer_h_small;
+            }
+        }
+        .wideCurseRight {
+            background-color: #336C95;
+            height: $express_footer_h_small;
+            img {
+                width: 50%;
+                position: absolute;
+                bottom: 13px;
+                right: 10px;
+            }
+            .precioExpress {
+                color: #fff;
+                margin-top: 20px;
+                font-size: 2.3em;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+.express {
+    .cursoHeaderOverlay {}
+    .expressTitle {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 70%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        p {
+            color: #fff;
+            padding: 20px 20px 20px 6%;
+            font-weight: 100;
+        }
+        .insideDest {
+            position: absolute;
+            width: 4%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            top: 0;
+            -webkit-border-top-left-radius: 10px;
+            -webkit-border-bottom-left-radius: 10px;
+            -moz-border-radius-topleft: 10px;
+            -moz-border-radius-bottomleft: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
 }

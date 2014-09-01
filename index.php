@@ -8,6 +8,7 @@
 				<div id="inner-content" class="row clearfix blogPage">
 			
 				    <div id="main" class="large-8 medium-8 columns clearfix equalBlog" role="main">
+				    	<div class= "medium-11 medium-centered columns">
 
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -32,6 +33,7 @@
     						<?php get_template_part( 'partials/content', 'missing' ); ?>
 					
 					    <?php endif; ?>
+					</div>
 			
 				    </div> <!-- end #main -->
     

@@ -149,7 +149,7 @@ function joints_scripts_and_styles() {
     wp_enqueue_script( ' jquery.matchHeight-min-js', get_template_directory_uri() . '/library/js/ jquery.matchHeight-min.js', array( 'jquery' ), $theme_version, true );
     wp_enqueue_script( 'joints-js', get_template_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), $theme_version, true );
     wp_enqueue_script( 'stycky-js', get_template_directory_uri() . '/library/js/min/styckySidebar-ck.js', array( 'jquery' ), $theme_version, true );
-    wp_enqueue_script( 'mscript-js', get_template_directory_uri() . '/library/js/min/mScript.js', array( 'jquery' ), $theme_version, true );
+    wp_enqueue_script( 'mscript-js', get_template_directory_uri() . '/library/js/mScript.js', array( 'jquery' ), $theme_version, true );
     wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/bower_components/jquery-waypoints/waypoints.min.js', array('jquery'), $theme_version, true );
 
 
