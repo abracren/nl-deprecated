@@ -4555,6 +4555,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/mar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161814,
+		"inputAbbreviatedPath": "\/imagesRoot\/mar.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/mar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/newsletter-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4617,6 +4628,17 @@
 		"initialSize": 6197,
 		"inputAbbreviatedPath": "\/imagesRoot\/reg-caption.png",
 		"outputAbbreviatedPath": "\/imagesRoot\/reg-caption.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/reg-caption2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19276,
+		"inputAbbreviatedPath": "\/imagesRoot\/reg-caption2.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/reg-caption2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5385,6 +5407,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/content-expresdropdown.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/content-expressheaderImagen.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/content-expressheaderImagen.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -13,7 +13,7 @@ Template Name: Home
 <div class="fullWidth aaaBack"> 
     <div class="row">
         <div class="medium-12 columns">
-            <ul class=" small-block-grid-1 medium-block-grid-5 underSlide">
+            <ul class=" small-block-grid-1 medium-block-grid-4 underSlide">
                 <li>
                     <a class="linkBlock" href="#">
                         <div class="block">
@@ -46,14 +46,14 @@ Template Name: Home
                         </div>
                     </a>
                 </li>
-                <li>
+              <!--   <li>
                     <a class="linkBlock" href="#">
                         <div class="block">
                             <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
                             <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
                         </div>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

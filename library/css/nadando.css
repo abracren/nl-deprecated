@@ -112,7 +112,7 @@ p {
 .slid {
   min-height: 590px;
   background-size: 100% auto !important;
-  background-repeat: no-repeat !important t;
+  background-repeat: no-repeat !important;
   background-position: center; }
 
 .slid-01 {
@@ -134,7 +134,7 @@ p {
   right: 105px; }
 
 .caption-wrapper {
-  background: url(http://localhost:8888/img/nl/reg-caption.png) center top no-repeat;
+  background: url(http://localhost:8888/img/nl/reg-caption2.png) center top no-repeat;
   min-height: 150px;
   position: absolute;
   bottom: 75px;
@@ -174,10 +174,10 @@ p {
     color: #00a2d7;
     text-decoration: none; }
   .underSlide .block {
-    background-color: #fff;
+    background-color: #aaa;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
-    border: 1px solid #dfdfdf;
+    border: 0px solid #dfdfdf;
     border-bottom: 10px solid #dfdfdf;
     border-color: #dfdfdf;
     height: 245px;
@@ -202,7 +202,7 @@ p {
     top: 15px; }
   .underSlide .block:hover {
     text-decoration: none;
-    border: 1px solid #00a2d7;
+    border: 0px solid #00a2d7;
     border-bottom: 10px solid #00a2d7;
     color: #00a2d7;
     border-color: #00a2d7; }
