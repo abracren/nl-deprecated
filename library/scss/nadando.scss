@@ -189,8 +189,8 @@ p {
 }
 
 .capParrafo {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 2em;
     margin-left: -30px;
     margin-right: 30px;
 }
@@ -217,7 +217,7 @@ p {
         text-decoration: none;
     }
     .block {
-        background-color: #aaa;
+        background-color: #fdfdfd;
         font-family: 'Titillium Web', sans-serif;
         font-weight: 700;
         border: 0px solid #dfdfdf;
