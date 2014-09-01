@@ -10,7 +10,7 @@ function closePanel(panel){
 
 //or append to a dropdown div//???? 
 //cursos loclahost
-$('.menu-item-125').click(function() {
+$('.cursosDrop').click(function() {
         if(ExpressOpen===1){
             closePanel('expressDropdown');
            // closePanel('onlineDropdown');
@@ -30,7 +30,7 @@ $('.menu-item-125').click(function() {
 });
 
 //express localhost
-$('.menu-item-151').click(function() {
+$('.expressDrop).click(function() {
               if(CursosOpen===1){
             closePanel('cusesDropdown');
            // closePanel('onlineDropdown');
@@ -51,10 +51,7 @@ $('.menu-item-151').click(function() {
 
 });
 
-        $('.menu-item-141').click(function() {
-$('.cusesDropdown').slideToggle( "slow" );
-
-});
+     
 $(document).ready(function() {
 
 	 $('.equalBlog').matchHeight();
