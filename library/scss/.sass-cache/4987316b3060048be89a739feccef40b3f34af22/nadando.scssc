@@ -1,7 +1,7 @@
 3.3.7 (Maptastic Maple)
-cea0bef21a5dc8a8e96948cfeb23d0083f1348df
+25ddeaa0c01817ee92b5209af7213e9748483aa4
 o:Sass::Tree::RootNode:@has_childrenT:
-@linei:@template"z´@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+@linei:@template"¨@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
 
 $mycolor: #0c2d4c;
 $magellan: #252424;
@@ -147,11 +147,11 @@ p {
 }
 
 .slid-01 {
-    background: url(http://localhost:8888/img/nl/slid1.jpg);
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid1.jpg);
 }
 
 .slid-02 {
-    background: url(http://localhost:8888/img/nl/slid2.jpg);
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid2.jpg);
 }
 
 .owl-pagination {
@@ -168,7 +168,7 @@ p {
 }
 
 .caption-wrapper {
-    background: url(http://localhost:8888/img/nl/reg-caption2.png) center top no-repeat;
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/reg-caption2.png) center top no-repeat;
     //background-color:#fff;
     min-height: 150px;
     position: absolute;
@@ -1326,12 +1326,12 @@ righto;	;@;iv;o;	;@;o;;iv;iE;o;;iv;iB;@;o;;	@;!;";"top
 [ ;.["background-repeat;o;	;@;@[;@_;@;#i ;o;Y;@;ié;Z;[;	@;\[o;	;@;ié;o;	;@;o;;ié;i&;o;;ié;i;@;o;;	@;!;";"no-repeato;	;@;ié;o;	;@;o;;ié;i1;o;;ié;i';@;o;;	@;!;";"!important;o;	;@;o;;ié;i2;o;;ié;i;@o;<;=o;	;@;o;;iè;i%;o;;iè;i;@;iè;>;?;@o;	;@;o;;iè;i;o;;iè;i
 ;@;	@;
 [ ;.["background-position;o;	;@;@w;@{;@;#i ;o;;iè;o;	;@;o;;iè;i%;o;;iè;i;@;o;;	@;!;";"center;o;	;@;o;;iã;i;o;;iã;i;@;#i o;1;T;2o;	;@;o;;ií;i;o;;ií;i;@;ií;3o;4;" ;5[o;6;5[o;7;80;@é;5[o;9;@é;ií;.["slid-01;ií;:o;;{ ;o;	;@é;o;;i;i;o;;i;i;0;ií;;[".slid-01;	@;
-[o;<;=o;	;@;o;;iì;iA;o;;iì;i;@;iì;>;?;@o;	;@;o;;iì;i;o;;iì;i
+[o;<;=o;	;@;o;;iì;ir;o;;iì;i;@;iì;>;?;@o;	;@;o;;iì;i;o;;iì;i
 ;@;	@;
-[ ;.["background;o;	;@;@°;@•;@;#i ;o;	;@;iì;o;	;@;o;;iì;iA;o;;iì;i;@;o;;	@;!;";"0url(http://localhost:8888/img/nl/slid1.jpg);o;	;@;o;;ií;i;o;;ií;i;@;#i o;1;T;2o;	;@;o;;iñ;i;o;;iñ;i;@;iñ;3o;4;" ;5[o;6;5[o;7;80;@∏;5[o;9;@∏;iñ;.["slid-02;iñ;:o;;{ ;o;	;@∏;o;;i;i;o;;i;i;0;iñ;;[".slid-02;	@;
-[o;<;=o;	;@;o;;ió;iA;o;;ió;i;@;ió;>;?;@o;	;@;o;;ió;i;o;;ió;i
+[ ;.["background;o;	;@;@°;@•;@;#i ;o;	;@;iì;o;	;@;o;;iì;ir;o;;iì;i;@;o;;	@;!;";"aurl(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid1.jpg);o;	;@;o;;ií;i;o;;ií;i;@;#i o;1;T;2o;	;@;o;;iñ;i;o;;iñ;i;@;iñ;3o;4;" ;5[o;6;5[o;7;80;@∏;5[o;9;@∏;iñ;.["slid-02;iñ;:o;;{ ;o;	;@∏;o;;i;i;o;;i;i;0;iñ;;[".slid-02;	@;
+[o;<;=o;	;@;o;;ió;ir;o;;ió;i;@;ió;>;?;@o;	;@;o;;ió;i;o;;ió;i
 ;@;	@;
-[ ;.["background;o;	;@;@À;@œ;@;#i ;o;	;@;ió;o;	;@;o;;ió;iA;o;;ió;i;@;o;;	@;!;";"0url(http://localhost:8888/img/nl/slid2.jpg);o;	;@;o;;iñ;i;o;;iñ;i;@;#i o;1;T;2o;	;@;o;;iö;i;o;;iö;i;@;iö;3o;4;" ;5[o;6;5[o;7;80;@‚;5[o;9;@‚;iö;.["owl-pagination;iö;:o;;{ ;o;	;@‚;o;;i;i;o;;i;i;0;iö;;[".owl-pagination;	@;
+[ ;.["background;o;	;@;@À;@œ;@;#i ;o;	;@;ió;o;	;@;o;;ió;ir;o;;ió;i;@;o;;	@;!;";"aurl(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid2.jpg);o;	;@;o;;iñ;i;o;;iñ;i;@;#i o;1;T;2o;	;@;o;;iö;i;o;;iö;i;@;iö;3o;4;" ;5[o;6;5[o;7;80;@‚;5[o;9;@‚;iö;.["owl-pagination;iö;:o;;{ ;o;	;@‚;o;;i;i;o;;i;i;0;iö;;[".owl-pagination;	@;
 [o;<;=o;	;@;o;;iõ;i;o;;iõ;i;@;iõ;>;?;@o;	;@;o;;iõ;i;o;;iõ;i
 ;@;	@;
 [ ;.["position;o;	;@;@ı;@˘;@;#i ;o;;iõ;o;	;@;o;;iõ;i;o;;iõ;i;@;o;;	@;!;";"absoluteo;<;=o;	;@;o;;iú;i;o;;iú;i;@;iú;>;?;@o;	;@;o;;iú;i;o;;iú;i
@@ -1358,9 +1358,9 @@ righto;<;=o;	;@;o;;i£;i;o;;i£;i;@;i£;>;?;@o;	;@;o;;
 [ ;.["
 right;o;	;@;@é;@í;@;#i ;o;;i§;o;	;@;o;;i§;i;o;;i§;i;@;o;;	@;!;";"
 105px;o;	;@;o;;iö;i;o;;iö;i;@;#i o;1;T;2o;	;@;o;;iß;i;o;;iß;i;@;iß;3o;4;" ;5[o;6;5[o;7;80;@•;5[o;9;@•;iß;.["caption-wrapper;iß;:o;;{ ;o;	;@•;o;;i;i;o;;i;i;0;iß;;[".caption-wrapper;	@;
-[o;<;=o;	;@;o;;i®;i];o;;i®;i;@;i®;>;?;@o;	;@;o;;i®;i;o;;i®;i
+[o;<;=o;	;@;o;;i®;iâ;o;;i®;i;@;i®;>;?;@o;	;@;o;;i®;i;o;;i®;i
 ;@;	@;
-[ ;.["background;o;	;@;@∏;@º;@;#i ;o;Y;@;i®;Z;[;	@;\[	o;	;@;i®;o;	;@;o;;i®;iH;o;;i®;i;@;o;;	@;!;";"7url(http://localhost:8888/img/nl/reg-caption2.png)o;	;@;i®;o;	;@;o;;i®;iO;o;;i®;iI;@;o;;	@;!;";"centero;	;@;i®;o;	;@;o;;i®;iS;o;;i®;iP;@;o;;	@;!;";"topo;	;@;i®;o;	;@;o;;i®;i];o;;i®;iT;@;o;;	@;!;";"no-repeat;o;	;@;o;;i®;i];o;;i®;i;@o;/
+[ ;.["background;o;	;@;@∏;@º;@;#i ;o;Y;@;i®;Z;[;	@;\[	o;	;@;i®;o;	;@;o;;i®;iy;o;;i®;i;@;o;;	@;!;";"hurl(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/reg-caption2.png)o;	;@;i®;o;	;@;o;;i®;i{;o;;i®;iz;@;o;;	@;!;";"centero;	;@;i®;o;	;@;o;;i®;i;o;;i®;i|;@;o;;	@;!;";"topo;	;@;i®;o;	;@;o;;i®;iâ;o;;i®;iÄ;@;o;;	@;!;";"no-repeat;o;	;@;o;;i®;iâ;o;;i®;i;@o;/
 ;i©;	@;
 [ ;!;0;[" /*background-color:#fff; */o;<;=o;	;@;o;;i™;i;o;;i™;i;@;i™;>;?;@o;	;@;o;;i™;i;o;;i™;i
 ;@;	@;
