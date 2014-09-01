@@ -30,7 +30,7 @@ $('.cursosDrop').click(function() {
 });
 
 //express localhost
-$('.expressDrop).click(function() {
+$('.expressDrop').click(function() {
               if(CursosOpen===1){
             closePanel('cusesDropdown');
            // closePanel('onlineDropdown');
