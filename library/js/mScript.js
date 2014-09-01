@@ -1,4 +1,4 @@
-//check if panel open
+//check if panel open a
 //if panelopen = 1 then close all panels and then open this panel.
 var ExpressOpen = 0;
 var CursosOpen = 0;
