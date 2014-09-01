@@ -803,7 +803,11 @@ label {
 
 //////////////////////////////
 //Cursos express
+.wideCurseRow{
+        margin-bottom: 30px;
 
+
+}
 .wideCurse {
     min-height: 430px;
     position: relative;
@@ -880,20 +884,20 @@ $express_footer_h_small: 80px;
 }
 
 .thinCurse {
-    margin-top: 30px;
+    //margin-top: 30px;
     margin-bottom: 30px;
     .expressHeaderImageSmall {
         overflow: hidden;
         height: 150px;
         img {
             margin-top: -60px;
+            min-width: 100%;
         }
     }
     .wideCurseIn {
         background-color: #FBFBFB;
         padding: 10px;
-        max-height: 230px;
-    }
+        }
     h3 {
         font-size: 1.5em;
         font-family: 'Titillium Web', sans-serif;
