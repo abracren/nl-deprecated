@@ -576,14 +576,8 @@ label {
     text-transform: uppercase;
     font-weight: normal;
     text-align: center;
-    padding-left: 10px;
-    .sub-nav {
-        
-        padding-left: 40px;
-    }
-}
-dd{
-    max-width: 14%;text-align: center !important;font-size: 0.9em !important;
+    //padding-left: 10px;
+ 
 }
 .menuItemMagellan
 {
@@ -595,22 +589,25 @@ dd{
     background-color: $magellan;
     padding: 10px !important;
         min-height: 109px;
+      //  max-width: 200px;
+      z-index: 99;
 
 
 
-.small-block-grid-8 LI
+LI
 {
     text-align: center;
     font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase;
 }
- .small-block-grid-8 LI A
+LI A
 {
     color: #949494;
 }
 
 }
+
 .backMenu {
     background-color: $magellan;
     width: 100%;
@@ -780,7 +777,7 @@ dd{
     position: relative;
     width: 100%;
     .imagenCurso {
-       //width: 100%;
+       width: 100%;
         z-index: -1;
         position: absolute;
         top: 0;

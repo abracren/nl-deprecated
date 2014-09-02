@@ -53,16 +53,17 @@ $('.expressDrop').click(function() {
 
      
 $(document).ready(function() {
+                $('.oneMenu').smint();
 
-	 $('.equalBlog').matchHeight();
+	// $('.equalBlog').matchHeight();
 
 });
    
 
-jQuery('#main, #cursosSidebar').theiaStickySidebar({
-      // Settings
-      additionalMarginTop: 80
-    });
+// jQuery('#main, #cursosSidebar').theiaStickySidebar({
+//       // Settings
+//       additionalMarginTop: 80
+//     });
 
 
 

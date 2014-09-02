@@ -461,15 +461,7 @@ label {
   font-size: 1.3em;
   text-transform: uppercase;
   font-weight: normal;
-  text-align: center;
-  padding-left: 10px; }
-  .menuMagellan .sub-nav {
-    padding-left: 40px; }
-
-dd {
-  max-width: 14%;
-  text-align: center !important;
-  font-size: 0.9em !important; }
+  text-align: center; }
 
 .menuItemMagellan {
   text-align: center !important; }
@@ -477,13 +469,14 @@ dd {
 .magellanContainer {
   background-color: #252424;
   padding: 10px !important;
-  min-height: 109px; }
-  .magellanContainer .small-block-grid-8 LI {
+  min-height: 109px;
+  z-index: 99; }
+  .magellanContainer LI {
     text-align: center;
     font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase; }
-  .magellanContainer .small-block-grid-8 LI A {
+  .magellanContainer LI A {
     color: #949494; }
 
 .backMenu {
@@ -610,6 +603,7 @@ dd {
   position: relative;
   width: 100%; }
   .curseHeader .imagenCurso {
+    width: 100%;
     z-index: -1;
     position: absolute;
     top: 0; }

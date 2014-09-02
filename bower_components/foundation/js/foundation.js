@@ -3184,6 +3184,7 @@
     set_expedition_position : function() {
       var self = this;
          $('.magellanContainer').css({position:'fixed'});
+             $('LI.magellanContainer').css({width:'5%'});
       $('[' + this.attr_name() + '=fixed]', self.scope).each(function(idx, el) {
         var expedition = $(this),
             styles = expedition.attr('styles'), // save styles

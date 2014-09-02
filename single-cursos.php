@@ -24,12 +24,11 @@ single-bookmarks.php
 
 
 			<div class="fullWidth oooBack">
-				<div class="row">
+			
 
 		
-	  <div class="magellanContainer" style=""data-magellan-expedition="fixed">
-	
-	  	<ul class="small-block-grid-8 ">
+	  <div class="magellanContainer oneMenu" >
+	  	<ul class="small-block-grid-8  ">
 	    <?php if( have_rows('seccion') ):
 
  	// loop through the rows of data
@@ -38,8 +37,9 @@ single-bookmarks.php
 	        // display a sub field value
 	        ?>
 	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'),true);?>
-	        	<li data-magellan-arrival="<?php echo $link?>">
-	        		<a href="#<?php echo $link?>"><?php the_sub_field('titulo_menu')?></a></li>
+	        	<li >
+	        		<a href="#<?php echo $link?> " ><?php the_sub_field('titulo_menu')?></a>
+	        	</li>
 
 
 	<?php
@@ -55,6 +55,8 @@ single-bookmarks.php
 
 	<ul>
 
+
+</div>
 </div>
 </div>
 
