@@ -54,8 +54,7 @@ p {
   min-width: 100%; }
 
 .oooBack {
-  background-color: #252424;
-  min-height: 80px; }
+  background-color: #252424; }
 
 .oooBack2 {
   min-height: 100px;
@@ -468,14 +467,13 @@ label {
 
 .magellanContainer {
   background-color: #252424;
-  padding: 10px !important;
-  min-height: 109px;
   z-index: 99; }
   .magellanContainer LI {
     text-align: center;
     font-size: 0.9em;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 10px 6px; }
   .magellanContainer LI A {
     color: #949494; }
 

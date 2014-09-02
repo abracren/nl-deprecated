@@ -73,7 +73,7 @@ p {
 
 .oooBack {
     background-color: $magellan;
-    min-height: 80px;
+    //min-height: 80px;
 }
 
 .oooBack2 {
@@ -587,8 +587,8 @@ label {
 
 .magellanContainer {
     background-color: $magellan;
-    padding: 10px !important;
-        min-height: 109px;
+    //padding: 5px  10px 0px 10px!important;
+       // min-height: 109px;
       //  max-width: 200px;
       z-index: 99;
 
@@ -600,6 +600,7 @@ LI
     font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase;
+    padding:10px 6px ;
 }
 LI A
 {

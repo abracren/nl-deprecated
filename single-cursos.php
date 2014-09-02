@@ -27,7 +27,8 @@ single-bookmarks.php
 			
 
 		
-	  <div class="magellanContainer oneMenu" >
+	  <div class="magellanContainer  oneMenu" >
+
 	  	<ul class="small-block-grid-8  ">
 	    <?php if( have_rows('seccion') ):
 
