@@ -23,11 +23,12 @@ single-bookmarks.php
 
 
 
-			<div class="fullWidth oooBack">
+			<div class="fullWidth oooBack oneMenu">
+				<div class="row">
 			
 
 		
-	  <div class="magellanContainer  oneMenu" >
+	  <div class="magellanContainer  " >
 
 	  	<ul class="small-block-grid-8  ">
 	    <?php if( have_rows('seccion') ):

@@ -465,6 +465,9 @@ label {
 .menuItemMagellan {
   text-align: center !important; }
 
+.oneMenu {
+  z-index: 99; }
+
 .magellanContainer {
   background-color: #252424;
   z-index: 99; }
