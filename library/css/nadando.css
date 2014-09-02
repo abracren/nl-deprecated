@@ -475,15 +475,21 @@ dd {
   text-align: center !important; }
 
 .magellanContainer {
-  background-color: #252424; }
-
-.ddMagellan {
-  text-align: center !important; }
+  background-color: #252424;
+  padding: 10px !important;
+  min-height: 109px; }
+  .magellanContainer .small-block-grid-8 LI {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .magellanContainer .small-block-grid-8 LI A {
+    color: #949494; }
 
 .backMenu {
   background-color: #252424;
   width: 100%;
-  min-height: 140px;
+  min-height: 109px;
   position: fixed;
   top: 0;
   display: none; }

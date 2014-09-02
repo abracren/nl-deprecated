@@ -593,17 +593,28 @@ dd{
 
 .magellanContainer {
     background-color: $magellan;
+    padding: 10px !important;
+        min-height: 109px;
+
+
+
+.small-block-grid-8 LI
+{
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ .small-block-grid-8 LI A
+{
+    color: #949494;
 }
 
-.ddMagellan {
-    //min-width:18%;
-    text-align: center !important;
 }
-
 .backMenu {
     background-color: $magellan;
     width: 100%;
-    min-height: 140px;
+    min-height: 109px;
     position: fixed;
     top: 0;
     display: none;
