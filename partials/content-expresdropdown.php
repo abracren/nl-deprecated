@@ -1,77 +1,58 @@
 
-
+<?php 
+$rows = get_field('cursos_express','option');
+$row_count = count($rows);
+//echo $row_count;
+//the_field('titulo','option');
+?>
     <div class="fullWidth dddBack expressDropdown">
         <div class="row">
             <div class="medium-12 columns">
                 <ul class="medium-block-grid-3 overSlide">
+<?php if( have_rows('cursos_express','options') ):
 
-                    <li>
+                // loop through the rows of data
+                    while ( have_rows('cursos_express','options') ) : the_row();
+
+                        // display a sub field value
+                        ?>
+
+                    <li>      <a href="<?php the_sub_field('link');?>">
                         <div class="block">
                             <div class="textBlock">
-                                <h4 class="">CURSO EXPRESS  </h4>
-                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
+                                <h4 class=""><?php the_sub_field('titulo');?> </h4>
+                           <?php the_sub_field('texto_link');?>
                                 </br>
                             </div>
 
                             <div class="textBlock2">
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-
+                               
+                                
+                                <?php the_sub_field('texto');?>
                             </div>
 
 
-                            <img class="imageBlock" src="http://localhost:8888/img/nl/th.jpg"></img>
+                            <img class="imageBlock" src="<?php the_sub_field('imagen');?>"></img>
                         </div>
+                        </a>
                     </li>
-                    <li>
-                        <div class="block">
-                            <div class="textBlock">
-                                <h4 class="">CURSO EXPRESS  </h4>
-                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
-                                </br>
-                            </div>
-
-                            <div class="textBlock2">
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-
-                            </div>
 
 
-                            <img class="imageBlock" src="http://localhost:8888/img/nl/th.jpg"></img>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="block">
-                            <div class="textBlock">
-                                <h4 class="">CURSO EXPRESS </h4>
-                                <a href="/nadandolibre.com/cursos/flowtraining-nivel-1/"> NIVEL 1></a>
-                                </br>
-                            </div>
+                    <?php
+                            endwhile;
 
-                            <div class="textBlock2">
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
-                                <a href="#"> NIVEL 1</a>
-                                </br>
+                        else :
 
-                            </div>
+                            // no rows found
 
+                        endif;
 
-                            <img class="imageBlock" src="http://localhost:8888/img/nl/th.jpg"></img>
-                        </div>
-                    </li>
-                   
+                        ?>
+                               <?php if($row_count==2){
+                        echo '<li></li>';
+                    }?>
+                                     
+                    
 
 
 

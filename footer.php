@@ -11,10 +11,10 @@
 																	  	
 									    <!--<form class="newsletter-form" role="form">-->
 									    <label class="newsletter-label">
-									        <img class="newsletter-icon pull-left" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/newsletter-icon.png">Be the first to know what's happening in the world of PADI</label>
+									        <img class="newsletter-icon pull-left" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/newsletter-icon.png"><?php the_field('texto_subscripcion','option');?></label>
 									    <div class="input-group input-group-lg">
 									        <span class="input-group-btn">
-									            <a class="button btn-default top-search-btn btn-primary" style="width: 100%" href="https://www.pages05.net/padiamericasinc/newsletter/dfd/?webSyncID=e835ce05-b8a6-6c50-11bd-7b7943db7600&amp;sessionGUID=12dc57a7-de05-7dd8-ad39-85276cee5307" target="_blank">Sign Up Now</a>
+									            <a class="button btn-default top-search-btn btn-primary" style="width: 100%" href="#" target="_blank">Regístrate</a>
 									        </span>
 									    </div>
 									    <!-- /input-group -->
@@ -25,63 +25,87 @@
 								  
 								  <div class="small-2 medium-2  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
+								  		<?php if( have_rows('columna_1','options') ):
+
+									                // loop through the rows of data
+									                    while ( have_rows('columna_1','options') ) : the_row();
+
+									                        // display a sub field value
+									                        ?>
+
 									                <li>
-									                    <a href="/scuba-diving/about-padi/">
-									                        About
+									                    <a href="<?php the_sub_field('link')?>">
+									                    <?php the_sub_field('titulo')?>
 									                    </a>
 									                </li>
-									                <li>
-									                    <a href="/scuba-diving/about-padi/why-choose-padi/">
-									                        Why PADI
-									                    </a>
-									                </li>
-									                <li>
-									                    <a href="/scuba-diving/scuba-community/">
-									                        Community
-									                    </a>
-									                </li>
+									                  <?php
+									                            endwhile;
+
+									                        else :
+
+									                            // no rows found
+
+									                        endif;
+
+									                        ?>	
+									                
 									            
 									    </ul>
 								  </div>
 								
 								<div class="small-2 medium-2  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
+									               <?php if( have_rows('columna_2','options') ):
+
+									                // loop through the rows of data
+									                    while ( have_rows('columna_2','options') ) : the_row();
+
+									                        // display a sub field value
+									                        ?>
+
 									                <li>
-									                    <a href="/scuba-diving/about-padi/">
-									                        About
+									                    <a href="<?php the_sub_field('link')?>">
+									                    <?php the_sub_field('titulo')?>
 									                    </a>
 									                </li>
-									                <li>
-									                    <a href="/scuba-diving/about-padi/why-choose-padi/">
-									                        Why PADI
-									                    </a>
-									                </li>
-									                <li>
-									                    <a href="/scuba-diving/scuba-community/">
-									                        Community
-									                    </a>
-									                </li>
+									                  <?php
+									                            endwhile;
+
+									                        else :
+
+									                            // no rows found
+
+									                        endif;
+
+									                        ?>	
 									            
 									    </ul>
 								  </div>
 								  <div class="small-3 medium-3  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
+									               <?php if( have_rows('columna_3','options') ):
+
+									                // loop through the rows of data
+									                    while ( have_rows('columna_3','options') ) : the_row();
+
+									                        // display a sub field value
+									                        ?>
+
 									                <li>
-									                    <a href="/scuba-diving/about-padi/">
-									                        About
+									                    <a href="<?php the_sub_field('link')?>">
+									                    <?php the_sub_field('titulo')?>
 									                    </a>
 									                </li>
-									                <li>
-									                    <a href="/scuba-diving/about-padi/why-choose-padi/">
-									                        Why PADI
-									                    </a>
-									                </li>
-									                <li>
-									                    <a href="/scuba-diving/scuba-community/">
-									                        Community
-									                    </a>
-									                </li>
-									            
+									                  <?php
+									                            endwhile;
+
+									                        else :
+
+									                            // no rows found
+
+									                        endif;
+
+									                        ?>	
 									    </ul>
 								  </div>
 								</div>

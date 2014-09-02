@@ -49,6 +49,20 @@ library/translation/translation.php
 */
 // require_once(get_template_directory().'/library/translation/translation.php'); // this comes turned off by default
 
+
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
+	    function reset_the_date()
+{
+global $previousday;
+$previousday = '';
+}
+
 /*********************
 MENUS & NAVIGATION
 *********************/
@@ -205,3 +219,5 @@ function joints_comments($comment, $args, $depth) {
 } // don't remove this bracket!
 
 ?>
+
+

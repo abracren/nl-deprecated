@@ -9,51 +9,46 @@ Template Name: Home
 <div class="fullWidth dddBack hide-for-small">			
 <?php get_template_part( 'partials/content', 'mainslider' ); ?>
 </div>
-
+<?php 
+$rows = get_field('destacados','option');
+$row_count = count($rows);
+//echo $row_count;
+//the_field('titulo','option');
+?>
 <div class="fullWidth aaaBack"> 
     <div class="row">
         <div class="medium-12 columns">
-            <ul class=" small-block-grid-1 medium-block-grid-4 underSlide">
+            <ul class=" small-block-grid-1 medium-block-grid-<?php echo $row_count;?> underSlide">
+  	<?php if( have_rows('destacados','options') ):
+
+ 	// loop through the rows of data
+	    while ( have_rows('destacados','options') ) : the_row();
+
+	        // display a sub field value
+	        ?>
+
+
                 <li>
-                    <a class="linkBlock" href="#">
+                    <a class="linkBlock" href="<?php the_sub_field('link');?>">
                         <div class="block">
-                            <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
-                            <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
+                            <img class="imageBlock" src="<?php the_sub_field('imagen');?>"></img>
+                            <h3 class="textBlock"><?php the_sub_field('titulo');?></h3>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="linkBlock" href="#">
-                        <div class="block">
-                            <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
-                            <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="linkBlock" href="#">
-                        <div class="block">
-                            <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
-                            <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="linkBlock" href="#">
-                        <div class="block">
-                            <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
-                            <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
-                        </div>
-                    </a>
-                </li>
-              <!--   <li>
-                    <a class="linkBlock" href="#">
-                        <div class="block">
-                            <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/th.jpg"></img>
-                            <h3 class="textBlock">VER TODOS LOS CURSOS</h3>
-                        </div>
-                    </a>
-                </li> -->
+                
+
+	<?php
+	    endwhile;
+
+	else :
+
+	    // no rows found
+
+	endif;
+
+	?>
+             
             </ul>
         </div>
     </div>
@@ -78,59 +73,92 @@ Template Name: Home
 	    <div class="medium-6 columns small-12 bigger">
 	        <a class="connect-btn connect-horiz-image" href="#" target="_blank">
 	            <div class="connect-btn-hover text-center">
-	                <p>Over <b>100,000</b> divers and growing. Join today.</p>
+	                <p><?php the_field('recuadro_grande','option');?></p>
 	                <p>
-	                    <button class="button btn-lg " >Entrar</button>
+	                    <button class="button btn-lg " >MAS INFO</button>
 	                </p>
 	            </div>
-	            <img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeBig.jpg">
+	            <img src="<?php the_field('recuadro_grande_Imagen','option');?>" alt="<?php the_field('recuadro_grande','option');?>">
 	        </a>
 	    </div>
 	    <div class=" medium-3 columns small-6">
-	        <a class="connect-btn" href="https://www.facebook.com/" target="_blank">
+	        <a class="connect-btn" href="<?php the_field('recuadro_facebook_link','option');?>" target="_blank">
 	            <div class="connect-btn-hover text-center">
-	                <p>Over <b>1 Million</b> Facebook followers and counting.</p>
+	                <p><?php the_field('facebook_button','option');?></p>
 	                <p>
-	                    <button class="button btn-lg btn-primary" >Registrate</button>
+	                    <button class="button btn-lg btn-primary" >Síguenos!</button>
 	                </p>
 	            </div>
-	            <img class="connect-bg-img" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeSmall.jpg">
+	            <img class="connect-bg-img" src="<?php the_field('recuadro_facebook_imagen','option');?>">
 	        </a>
 	    </div>
+	      <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 1,  'cat' => 3,);
+						$loop = new WP_Query( $args );
+						
+						while ( $loop->have_posts() ) : $loop->the_post();
+						?>
+							
 	    <div class="medium-3 columns small-6">
 		        <a class="connect-btn" href="" target="_blank">
 		            <div class="connect-btn-hover connect-news" style="padding-top:20px;">
-		                <h5 class="connect-news-date">24 August, 2014</h5> 
+		                <h5 class="connect-news-date"><?php the_date( );?></h5> 
 		                <hr class="connect-news-rule">
-		                <h3 class="connect-news-title">Top ScubaEarth Dive Sites – Bali, Indonesia</h3> 
+		                <h3 class="connect-news-title"><?php the_field('titulo_frontpage');?></h3> 
 		            </div>
-		            <img class="connect-bg-img" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeSmall.jpg">
+		            <img class="connect-bg-img" src="<?php the_field('miniatura');?>">
 		        </a>
 	    </div>
+	    <?php
+			    endwhile;
+			     
+			
+			/* Restore original Post Data */
+			wp_reset_postdata();
+			?>
 	</div>
 
 	<div class="row">
 	    <div class="medium-3 columns small-6">
-	        <a class="connect-btn" href="http://www.youtube.com/embed/pq5v0HZ6CeU?list=PLBE1A99745B778B9E" target="_blank">
+	        <a class="connect-btn" href="http://www.youtube.com/embed/<?php the_field('video_1','option');?>" target="_blank">
 	            <img class="yt-video-play-btn" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/yt-video-play-btn.png">
-	            <img class="connect-bg-img hoverZoomLink" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeSmall.jpg">
+	            <img class="connect-bg-img hoverZoomLink" src="<?php the_field('video_1_imagen','option');?>">
 	        </a>
 	    </div>
-	    <div class="medium-3 columns small-6">
-	        <a class="connect-btn" href="http://www.projectaware.org/update/noaa-economic-study-shows-marine-debris-costs-california-residents-millions-dollars" target="_blank">
-	            <div class="connect-btn-hover connect-news">
-	                <h5 class="connect-news-date">18 August, 2014</h5> 
-	                <hr class="connect-news-rule">
-	                <h3 class="connect-news-title">NOAA Economic Study Shows Marine Debris Costs California Residents Millions of Dollars</h3> 
-	            </div>
-	            <img class="connect-bg-img" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeSmall.jpg">
-	        </a>
-	    </div>
+	    <?php
+
+	reset_the_date();
+	?>
+	  <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 1,'offset'=>1, 'cat' => 3,);
+						$loop2 = new WP_Query( $args );
+						
+						while ( $loop2->have_posts() ) : $loop2->the_post();
+						?>
+												
+			    <div class="medium-3 columns small-6">
+			        <a class="connect-btn" href="http://www.projectaware.org/update/noaa-economic-study-shows-marine-debris-costs-california-residents-millions-dollars" target="_blank">
+			            <div class="connect-btn-hover connect-news">
+
+
+			                <h5 class="connect-news-date"><?php the_date( );?></h5> 
+			                <hr class="connect-news-rule">
+			                <h3 class="connect-news-title"><?php the_field('titulo_frontpage');?></h3> 
+			            </div>
+			            <img class="connect-bg-img" src="<?php the_field('miniatura');?>">
+			        </a>
+			    </div>
+			
+			    <?php
+			    endwhile;
+			     
+			
+			/* Restore original Post Data */
+			wp_reset_postdata();
+			?>
 	    <div class=" visible-sm"></div>
 	    <div class="medium-6 columns small-12 bigger ">
-	        <a class="connect-btn connect-horiz-image" href="http://www.youtube.com/embed/ut1U4pdxySY?list=PL9CB5702E3E3901E0" target="_blank">
+	        <a class="connect-btn connect-horiz-image" href="http://www.youtube.com/embed/<?php the_field('video_2','option');?>" target="_blank">
 	            <img class="yt-video-play-btn" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/yt-video-play-btn.png">
-	            <img class="connect-bg-img" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/placeBig.jpg">
+	            <img class="connect-bg-img" src="<?php the_field('video_2_imagen','option');?>">
 	        </a>
 	    </div>
 	</div>

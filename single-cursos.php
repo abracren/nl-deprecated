@@ -25,7 +25,8 @@ single-bookmarks.php
 
 $rows = get_field('seccion');
 $row_count = count($rows);
-echo $row_count;
+//echo $row_count;
+the_field('titulo','option');
 $widthher = 100/$row_count;
 if($row_count>8){
 	$fontSize=.7;

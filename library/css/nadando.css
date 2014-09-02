@@ -150,7 +150,8 @@ p {
   line-height: 1;
   margin-left: -30px;
   margin-right: 30px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  min-height: 100px; }
 
 .capParrafo {
   font-weight: normal;
@@ -179,7 +180,6 @@ p {
     border: 0px solid #dfdfdf;
     border-bottom: 10px solid #dfdfdf;
     border-color: #dfdfdf;
-    height: 245px;
     position: relative;
     text-decoration: none; }
   .underSlide .image {
@@ -198,7 +198,8 @@ p {
     line-height: 1;
     text-align: center;
     position: relative;
-    top: 15px; }
+    top: 15px;
+    min-height: 100px; }
   .underSlide .block:hover {
     text-decoration: none;
     border: 0px solid #00a2d7;
@@ -247,12 +248,13 @@ p {
     line-height: 1.5em;
     min-height: 99px;
     max-height: 100px;
-    font-weight: 700;
-    padding: 10px; }
+    font-weight: normal;
+    padding: 10px;
+    color: #333;
+    font-size: 1.1em; }
     .overSlide .textBlock2 a {
       text-align: center;
-      color: #000;
-      font-size: 1em; }
+      color: #333; }
 
 .headerConnect {
   padding-top: 40px !important;
