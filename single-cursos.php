@@ -37,7 +37,7 @@ single-bookmarks.php
 
 	        // display a sub field value
 	        ?>
-	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'));?>
+	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'),true);?>
 	        	<li data-magellan-arrival="<?php echo $link?>">
 	        		<a href="#<?php echo $link?>"><?php the_sub_field('titulo_menu')?></a></li>
 

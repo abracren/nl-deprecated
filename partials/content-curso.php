@@ -10,7 +10,7 @@
 
         // display a sub field value
         ?>
-        	<?php $link =sanitize_title(get_sub_field('titulo_menu'));?>
+        	<?php $link =sanitize_title(get_sub_field('titulo_menu'),true);?>
         	<a name="<?php echo $link?>"></a>
         	<h2 data-magellan-destination="<?php echo $link?>"><?php the_sub_field('titulo');?></h2>
         	<?php the_sub_field('contenido');?>
