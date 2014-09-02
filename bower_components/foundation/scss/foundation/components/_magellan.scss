@@ -18,8 +18,12 @@ $magellan-padding: 10px !default;
     #{data('magellan-expedition')}, #{data('magellan-expedition-clone')} {
       background: $magellan-bg;
       z-index: 50;
-      min-width: 100%;
+      min-width: 80%;
       padding: $magellan-padding;
+      LI{
+        width:15%;
+
+      }
 
       .sub-nav {
         margin-bottom: 0;

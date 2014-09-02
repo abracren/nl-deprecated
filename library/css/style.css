@@ -3224,8 +3224,10 @@ kbd {
 [data-magellan-expedition], [data-magellan-expedition-clone] {
   background: #333333;
   z-index: 50;
-  min-width: 100%;
+  min-width: 80%;
   padding: 30px; }
+  [data-magellan-expedition] LI, [data-magellan-expedition-clone] LI {
+    width: 15%; }
   [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
     margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
