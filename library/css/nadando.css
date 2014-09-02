@@ -466,6 +466,14 @@ label {
   .menuMagellan .sub-nav {
     padding-left: 40px; }
 
+dd {
+  max-width: 14%;
+  text-align: center !important;
+  font-size: 0.9em !important; }
+
+.menuItemMagellan {
+  text-align: center !important; }
+
 .magellanContainer {
   background-color: #252424; }
 
@@ -475,7 +483,7 @@ label {
 .backMenu {
   background-color: #252424;
   width: 100%;
-  min-height: 87px;
+  min-height: 140px;
   position: fixed;
   top: 0;
   display: none; }

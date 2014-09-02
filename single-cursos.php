@@ -28,7 +28,8 @@ single-bookmarks.php
 
 		
 	  <div class="magellanContainer" style=""data-magellan-expedition="fixed">
-	  <dl class="sub-nav">
+	
+	  	<ul class="small-block-grid-8 ">
 	    <?php if( have_rows('seccion') ):
 
  	// loop through the rows of data
@@ -37,7 +38,8 @@ single-bookmarks.php
 	        // display a sub field value
 	        ?>
 	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'));?>
-	        	<dd data-magellan-arrival="<?php echo $link?>"><a href="#<?php echo $link?>"><span class="menuMagellan"><?php the_sub_field('titulo_menu');?></span></a></dd>
+	        	<li data-magellan-arrival="<?php echo $link?>">
+	        		<a href="#<?php echo $link?>"><?php the_sub_field('titulo_menu')?></a></li>
 
 
 	<?php
@@ -50,10 +52,10 @@ single-bookmarks.php
 	endif;
 
 	?>
-	  </dl>
-	</div>
-	</div>
 
+	<ul>
+
+</div>
 </div>
 
 			
