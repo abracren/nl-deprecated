@@ -139,7 +139,7 @@ p {
 .slid {
     min-height: 590px;
     background-size: 100% auto !important;
-    background-repeat: no-repeat !important ;
+    background-repeat: no-repeat !important;
     background-position: center;
 }
 
@@ -760,12 +760,12 @@ label {
     position: relative;
     width: 100%;
     .imagenCurso {
-        min-width: 100%;
+       //width: 100%;
         z-index: -1;
         position: absolute;
         top: 0;
         img {
-            min-width: 100% !important;
+            min-width: 100%;
         }
     }
     .cursoHeaderOverlay {
@@ -803,11 +803,10 @@ label {
 
 //////////////////////////////
 //Cursos express
-.wideCurseRow{
-        margin-bottom: 30px;
-
-
+.wideCurseRow {
+    margin-bottom: 30px;
 }
+
 .wideCurse {
     min-height: 430px;
     position: relative;
@@ -897,7 +896,7 @@ $express_footer_h_small: 80px;
     .wideCurseIn {
         background-color: #FBFBFB;
         padding: 10px;
-        }
+    }
     h3 {
         font-size: 1.5em;
         font-family: 'Titillium Web', sans-serif;
@@ -991,3 +990,20 @@ $express_footer_h_small: 80px;
         }
     }
 }
+
+@media only screen and (max-width: 40em) {
+    .imagenCurso {
+         img{
+              min-width: 100% !important;
+        }
+
+    }
+    .expressTitle{
+        p{
+            font-size:.9em;
+        }
+
+    }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */

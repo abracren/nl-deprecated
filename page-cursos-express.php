@@ -16,6 +16,7 @@ Template Name: Cursos Express
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					    	<div class="row all">
+					    		<div class="small-12 columns">
 
 					    	<?php get_template_part( 'partials/loop', 'page' ); ?>
 					    	  <?php if( have_rows('curso') ):
@@ -53,7 +54,16 @@ Template Name: Cursos Express
 											<div class="small-12 columns wideCurse_footer">
 												<div class="small-8 columns wideCurseLeft">
 
-													<p>Fecha: <?php the_sub_field('fecha');?></p>
+														<?php   
+															$datte= DateTime::createFromFormat('Ymd', get_sub_field('fecha'));
+															//echo $datte->format('d-m-Y');
+
+															?>
+
+
+
+															
+															<p>Fecha: <?php echo $datte->format('d-m-Y'); ?></p>
 													<p>Horario: <?php the_sub_field('horario');?></p>
 
 													<p>Lugar: <?php the_sub_field('lugar');?></p>
@@ -79,7 +89,7 @@ Template Name: Cursos Express
 								<div class="row hide-for-medium-up">
 									<div class="small-12 medium-12 large-12 columns"></div>
 									
-										<div class="row">
+										<!-- <div class="row"> -->
 											  <div class="small-12 medium-6 large-6 columns thinCurse ">
 											  	<div class="expressHeaderImageSmall	">
 													<img  class=""src="<?php the_sub_field('imagen');?>"/>
@@ -92,8 +102,16 @@ Template Name: Cursos Express
 
 												<div class="small-12 columns wideCurse_footer">
 													<div class="small-6 columns wideCurseLeft">
+															<?php   
+															$datte= DateTime::createFromFormat('Ymd', get_sub_field('fecha'));
+															//echo $datte->format('d-m-Y');
 
-															<p>Fecha: <?php the_sub_field('fecha');?></p>
+															?>
+
+
+
+															
+															<p>Fecha: <?php echo $datte->format('d-m-Y'); ?></p>
 															<p>Horario: <?php the_sub_field('horario');?></p>
 
 															<p>Lugar: <?php the_sub_field('lugar');?></p>
@@ -124,7 +142,7 @@ Template Name: Cursos Express
 									<div class="small-12 medium-12 large-12 columns"></div>
 									<?php } ?>
 									
-										<div class="row">
+										<!-- <div class="row"> -->
 											  <div class="small-12 medium-6 large-6 columns thinCurse ">
 											  	<div class="expressHeaderImageSmall	">
 													<img  class=""src="<?php the_sub_field('imagen');?>"/>
@@ -138,8 +156,17 @@ Template Name: Cursos Express
 												<div class="small-12 columns wideCurse_footer">
 													<div class="small-6 columns wideCurseLeft">
 
-															<p>Fecha: <?php the_sub_field('fecha');?></p>
-															<p>Horario: <?php the_sub_field('horario');?></p>
+															<?php   
+															$datte= DateTime::createFromFormat('Ymd', get_sub_field('fecha'));
+															//echo $datte->format('d-m-Y');
+
+															?>
+
+
+
+															
+															<p>Fecha: <?php echo $datte->format('d-m-Y'); ?></p>
+																													<p>Horario: <?php the_sub_field('horario');?></p>
 
 															<p>Lugar: <?php the_sub_field('lugar');?></p>
 													</div>
@@ -193,8 +220,14 @@ Template Name: Cursos Express
 								endif;
 
 								?>
-															</div>
+							 <?php if($count==2){?>
+							   <div class="small-12 medium-6 large-6 columns"></div>
+							 </div>
+							 <?php  }?>
 
+
+															</div>
+							</div>
 							</div> <!-- endROWaLL -->
 
 					    					

@@ -776,8 +776,5 @@ label {
 
 @media only screen and (max-width: 40em) {
   .imagenCurso img {
-    min-width: 100% !important; }
-
-  .expressTitle p {
-    font-size: .9em; } }
+    min-width: 200% !important; } }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */

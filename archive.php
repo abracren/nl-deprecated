@@ -1,10 +1,12 @@
 <?php get_header(); ?>
-			
+				<div class="fullWidth oooBack2"> 
+								
+							</div>
 			<div id="content">
 			
 				<div id="inner-content" class="row clearfix">
 				
-				    <div id="main" class="large-8 medium-8 columns first clearfix" role="main">
+				    <div id="main" class="large-8 medium-8 columns first clearfix equalBlog" role="main">
 				
 					    <?php if (is_category()) { ?>
 						    <h1>
