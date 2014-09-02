@@ -4555,6 +4555,294 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/macbook-air.local.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/comment-reply.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/comment-reply.min.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/comment-reply.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/foundation-icons.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/foundation-icons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/foundation.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/foundation.min.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/foundation.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/jquery.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/jquery-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/jquery.matchHeight-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/jquery.matchHeight-min.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/jquery.matchHeight-min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47173,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/logo.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/lpckrp.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/lpckrp.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/lpckrp-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/modernizr.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/modernizr-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/mScript.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/mScript.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/mScript-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/nadando.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/nadando.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/nadando2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/nadando2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/newsletter-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2434,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/newsletter-icon.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/newsletter-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/owl.carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/owl.carousel.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/placeBig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129317,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/placeBig.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/placeBig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/placeSmall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70523,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/placeSmall.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/placeSmall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/scripts.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/scripts-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/socialIcons.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/socialIcons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/styckySidebar-ck.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/styckySidebar-ck.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/styckySidebar-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/th(1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27563,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/th(1).jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/th(1).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/th.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27563,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/th.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/th.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/transitions.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/transitions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesRoot\/macbook-air.local_files\/waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/waypoints.min.js",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/min\/waypoints.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesRoot\/macbook-air.local_files\/yt-video-play-btn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2856,
+		"inputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/yt-video-play-btn.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/macbook-air.local_files\/yt-video-play-btn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/mar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
