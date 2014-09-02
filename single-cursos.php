@@ -21,7 +21,18 @@ single-bookmarks.php
 	  <?php //get_template_part( 'partials/content', 'cursoheader' ); ?>
 	  <?php get_template_part( 'partials/content', 'cursoheaderImagen' ); ?>
 
+<?php
 
+$rows = get_field('seccion');
+$row_count = count($rows);
+echo $row_count;
+$widthher = 100/$row_count;
+if($row_count>8){
+	$fontSize=.7;
+}else{
+	$fontSize=.8;
+}
+?>
 
 			<div class="fullWidth oooBack oneMenu">
 				<div class="row">
@@ -30,7 +41,7 @@ single-bookmarks.php
 		
 	  <div class="magellanContainer  " >
 
-	  	<ul class="small-block-grid-8  ">
+	  	<ul class="small-block-grid-<?php echo  $row_count;?>">
 	    <?php if( have_rows('seccion') ):
 
  	// loop through the rows of data
@@ -39,7 +50,7 @@ single-bookmarks.php
 	        // display a sub field value
 	        ?>
 	        	<?php $link =sanitize_title(get_sub_field('titulo_menu'),true);?>
-	        	<li >
+	        	<li  style="width:<?php echo $widthher;?>%;font-size:<?php echo $fontSize;?>em">
 	        		<a href="#<?php echo $link?> " ><?php the_sub_field('titulo_menu')?></a>
 	        	</li>
 
