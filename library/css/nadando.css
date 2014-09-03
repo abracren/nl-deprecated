@@ -102,12 +102,6 @@ p {
   background-repeat: no-repeat !important;
   background-position: center; }
 
-.slid-01 {
-  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid1.jpg); }
-
-.slid-02 {
-  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid2.jpg); }
-
 .owl-pagination {
   position: absolute;
   bottom: 25px;
@@ -121,7 +115,7 @@ p {
   right: 105px; }
 
 .caption-wrapper {
-  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/reg-caption2.png) center top no-repeat;
+  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/reg-caption.png) center top no-repeat;
   min-height: 150px;
   position: absolute;
   bottom: 75px;
