@@ -20,6 +20,15 @@ single-bookmarks.php
 	  <?php// get_template_part( 'partials/content', 'blogheader' ); ?>
 	  <?php //get_template_part( 'partials/content', 'cursoheader' ); ?>
 	  <?php get_template_part( 'partials/content', 'cursoheaderImagen' ); ?>
+<div class="fullWidth videoBack2">
+<div class="row ">
+	<div class="small-9 small-centered columns videoTop">
+<div class="flex-video widescreen">
+	        <iframe width="560" height="315" src="//www.youtube.com/embed/<?php the_field('video_cabecera');?>" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
 
 <?php
 
@@ -34,6 +43,7 @@ if($row_count>8){
 	$fontSize=.8;
 }
 ?>
+
 
 			<div class="fullWidth oooBack oneMenu">
 				<div class="row">
@@ -97,7 +107,33 @@ if($row_count>8){
 				</div> <!-- end #inner-content -->
     
 			</div> <!-- end #content -->
-
+			</div> <!-- end #content -->
+<!-- 			<div class="fullWidth dddBack">
+			<div class="row">
+			  <div class="small-12 medium-12 large-12 columns videoBottomFlow">
+			  	<div class="row">
+			  	  <div class="small-12 medium-4 large-4 columns">
+			  	  	<div class="flex-video widescreen">
+	        <iframe width="560" height="315" src="//www.youtube.com/embed/dTHk84u_rpk" frameborder="0" allowfullscreen></iframe>
+</div>
+			  	  </div>
+			  	   	  <div class="small-12 medium-4 large-4 columns">
+			  	  	<div class="flex-video widescreen">
+	        <iframe width="560" height="315" src="//www.youtube.com/embed/QWB9k8wkcGk" frameborder="0" allowfullscreen></iframe>
+</div>
+			  	  </div>
+			  	   	  <div class="small-12 medium-4 large-4 columns">
+			  	  	<div class="flex-video widescreen">
+	        <iframe width="560" height="315" src="//www.youtube.com/embed/_GslRkpUmCQ" frameborder="0" allowfullscreen></iframe>
+</div>
+			  	  </div>
+			  	  
+			  	</div>
+			  </div>
+			</div>
+			</div> -->
+			<?php the_field('contenido_extra');?>
+			
 <?php get_footer(); ?>
 
 <script type="text/javascript">

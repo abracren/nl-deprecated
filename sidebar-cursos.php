@@ -18,7 +18,8 @@
 
 				  </div>
 				  <div class="small-4 medium-4 large-4 columns">
-				  	<a  style="" class=" button tiny" href="#">COMPRAR</a>
+				  	<!-- <a  style="" class=" button tiny" href="#">COMPRAR</a> -->
+				  	 <a><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/paypal2.png" border="0" alt="Marcas de aceptación" /></a>
 
 				  </div>
 			</div>
