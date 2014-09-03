@@ -1,7 +1,7 @@
 <div id="cursosSidebar" class="sidebar large-4 medium-4 columns equalBlog"  role="complementary">
 
 	<!-- This content shows up if there are no widgets defined in the backend. -->
-	<div class="styckPanel hide-for-small">
+	<div class="styckPanel ">
 		<div class="panel LeyendPanel">
 			<h6 class="buyLeyend">Compra tu curso AHORA MISMO de forma segura con Pay Pal y vive la experiencia.</h6>
 		</div>
