@@ -6,7 +6,7 @@ Template Name: Home
 
 <?php get_header(); ?>
 
-<div class="fullWidth dddBack hide-for-small">			
+<div class="fullWidth dddBack">			
 <?php get_template_part( 'partials/content', 'mainslider' ); ?>
 </div>
 <?php 
@@ -72,7 +72,7 @@ $row_count = count($rows);
 	<div class="row">
 	    <div class="medium-6 columns small-12 bigger">
 	        <a class="connect-btn connect-horiz-image" href="#" target="_blank">
-	            <div class="connect-btn-hover text-center">
+	            <div class="connect-btn-hover text-center biggest">
 	                <p><?php the_field('recuadro_grande','option');?></p>
 	                <p>
 	                    <button class="button btn-lg " >MAS INFO</button>

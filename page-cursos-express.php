@@ -52,7 +52,7 @@ Template Name: Cursos Express
 
 										<div class="row">
 											<div class="small-12 columns wideCurse_footer">
-												<div class="small-8 columns wideCurseLeft">
+												<div class="small-8 medium-6 large-8 columns wideCurseLeft">
 
 														<?php   
 															$datte= DateTime::createFromFormat('Ymd', get_sub_field('fecha'));
@@ -68,10 +68,10 @@ Template Name: Cursos Express
 
 													<p>Lugar: <?php the_sub_field('lugar');?></p>
 												</div>
-												<div class="small-1 columns wideCurseCenter ">
+												<div class="small-1 medium-1 large-1 columns wideCurseCenter ">
 													 <img class="imageBlock" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/diagonal-ex-foot.png"></img>
 													</div>
-												<div class="small-3 columns wideCurseRight ">
+												<div class="small-3  medium-5 large-3 columns wideCurseRight ">
 												       <div class="precioExpress"><?php the_sub_field('precio');?><span class="euroSymbolExpress">€</span></div>
 												       <a><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/paypal2.png" border="0" alt="Marcas de aceptación" /></a>
 

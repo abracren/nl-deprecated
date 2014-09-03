@@ -99,14 +99,14 @@ if( $post_objects ): ?>
 <?php endif;
 
 ?>
-			<div class="panel panelMoreCursos">
+			<!-- <div class="panel panelMoreCursos">
 				<h6>EL ADN DE LA FLUIDEZ</h6>
 				
 			</div>	
 			<div class="panel panelMoreCursos">
 				<h6>EL ADN DE LA FLUIDEZ</h6>
 				
-			</div>
+			</div> -->
 			
 		</div>
 	</div>

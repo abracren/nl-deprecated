@@ -5,9 +5,9 @@
 
 			<div id="content">
 			
-				<div id="inner-content" class="row clearfix blogPage">
+				<div id="inner-content" class="row clearfix blogPage equalBlog">
 			
-				    <div id="main" class="large-8 medium-8 columns clearfix equalBlog" role="main">
+				    <div id="main" class="large-8 medium-8 columns clearfix " role="main">
 				    	<div class= "medium-11 medium-centered columns">
 
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

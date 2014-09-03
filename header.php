@@ -54,12 +54,12 @@
 							<div class="medium-4 columns">
 								<div class="tituloHeader"> NADANDO LIBRE</div>
 							</div>
-							<div class="medium-3 columns">
+							<div class="medium-3 columns hide-for-medium">
 								<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' );?>" >
 									<input type="text" value="" name="s" id="s" class="search-query  "placeholder="Buscar" />
 								</form>
 							</div>
-							<div class="medium-2 columns">
+							<div class="medium-4 large-2 columns">
 								<ul class="soc">
 									    <li><a class="soc-twitter" href="#"></a></li>
 									    <li><a class="soc-facebook" href="#"></a></li>

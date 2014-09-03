@@ -27,7 +27,7 @@
 			<ul class="title-area">
 				<!-- Title Area -->
 				<li class="name hide-for-medium-up">
-					Nadando Libre
+					<div class="small-4 columns"><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/logo.png"/></div>
 				</li>
 				<li class="toggle-topbar menu-icon">
 					<a href="#" style="color:#ddd"><span>Menu</span></a>

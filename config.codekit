@@ -4544,6 +4544,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/gray-classic-search-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1270,
+		"inputAbbreviatedPath": "\/imagesRoot\/gray-classic-search-icon.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/gray-classic-search-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5292,12 +5303,67 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/library\/js\/jquery.scrollNav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/jquery.scrollNav.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/jquery.scrollNav-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/jquery.smint.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/jquery.smint.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/jquery.smint-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/jquery.stickyNavbar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/jquery.stickyNavbar.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/jquery.stickyNavbar-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/library\/js\/min\/jquery.matchHeight-min-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/js\/min\/jquery.matchHeight-min-ck.js",
 		"outputAbbreviatedPath": "\/library\/js\/min\/min\/jquery.matchHeight-min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/min\/jquery.smint-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/min\/jquery.smint-ck.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/min\/jquery.smint-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/min\/jquery.stickyNavbar-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/min\/jquery.stickyNavbar-ck.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/min\/jquery.stickyNavbar-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5342,6 +5408,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/js\/scripts.js",
 		"outputAbbreviatedPath": "\/library\/js\/min\/scripts-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/stickUp.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/stickUp.js",
+		"outputAbbreviatedPath": "\/library\/js\/min\/stickUp-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

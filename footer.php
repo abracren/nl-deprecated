@@ -7,7 +7,7 @@
 						
 							<div class="large-12 medium-12 columns">
 								<div class="row footLinks">
-								  <div class="small-5 medium-5  columns">
+								  <div class="small-12 medium-5  columns">
 																	  	
 									    <!--<form class="newsletter-form" role="form">-->
 									    <label class="newsletter-label">
@@ -23,7 +23,7 @@
 
 									</div>
 								  
-								  <div class="small-2 medium-2  columns">
+								  <div class="small-12 medium-2  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
 								  		<?php if( have_rows('columna_1','options') ):
 
@@ -53,7 +53,7 @@
 									    </ul>
 								  </div>
 								
-								<div class="small-2 medium-2  columns">
+								<div class="small-12 medium-2  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
 									               <?php if( have_rows('columna_2','options') ):
 
@@ -81,7 +81,7 @@
 									            
 									    </ul>
 								  </div>
-								  <div class="small-3 medium-3  columns">
+								  <div class="small-13 medium-3  columns">
 								  	<ul class="list-unstyled footer-nav footer-nav-first">
 									               <?php if( have_rows('columna_3','options') ):
 

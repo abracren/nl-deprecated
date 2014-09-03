@@ -45,14 +45,14 @@ if($row_count>8){
 ?>
 
 
-			<div class="fullWidth oooBack oneMenu">
+			<div class="fullWidth oooBack oneMenu  hide-for-small hide-for-medium">
 				<div class="row">
 			
 
 		
 	  <div class="magellanContainer  " >
 
-	  	<ul class="small-block-grid-<?php echo  $row_count;?>">
+	  	<ul class=" small-block-grid-1 medium-block-grid-<?php echo  $row_count;?>">
 	    <?php if( have_rows('seccion') ):
 
  	// loop through the rows of data
