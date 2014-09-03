@@ -186,7 +186,7 @@ p {
     margin-left: -30px;
     margin-right: 30px;
     margin-top: 10px;
-    min-height: 100px;
+    min-height: 100px;  
 }
 
 .capParrafo {
@@ -303,7 +303,7 @@ p {
         text-align: center;
         line-height: 1.5em;
         min-height: 99px;
-        max-height: 100px;
+        height: 120px;
         font-weight: normal;
         padding: 10px;
         color:#333; 
@@ -589,10 +589,18 @@ label {
     text-align: center !important;
 }
 .oneMenu{
-    z-index: 99;
+   // z-index: 99;
 
 }
-
+.active {
+    color: #ddd !important;
+    //text-decoration: underline !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
 .magellanContainer {
     background-color: $magellan;
     //padding: 5px  10px 0px 10px!important;

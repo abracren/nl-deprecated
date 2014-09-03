@@ -247,7 +247,7 @@ p {
     text-align: center;
     line-height: 1.5em;
     min-height: 99px;
-    max-height: 100px;
+    height: 120px;
     font-weight: normal;
     padding: 10px;
     color: #333;
@@ -467,8 +467,13 @@ label {
 .menuItemMagellan {
   text-align: center !important; }
 
-.oneMenu {
-  z-index: 99; }
+.active {
+  color: #ddd !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
 
 .magellanContainer {
   background-color: #252424;
