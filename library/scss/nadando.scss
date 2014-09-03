@@ -60,7 +60,7 @@ p {
 
 .oooBack {
     background-color: $magellan;
-    //min-height: 80px;
+    min-height: 80px;
 }
 
 .oooBack2 {
@@ -715,7 +715,7 @@ label {
     font-size: 2em;
 
     //RED PRICE
-    background-color: rgb(216, 14, 14);
+    background-color: rgba(47, 182, 182,.2);
 border-radius: 6px;
 padding: 12px;
 }

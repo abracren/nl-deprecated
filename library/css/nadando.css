@@ -42,7 +42,8 @@ p {
   min-width: 100%; }
 
 .oooBack {
-  background-color: #252424; }
+  background-color: #252424;
+  min-height: 80px; }
 
 .oooBack2 {
   border-top: 1px solid #ddd;
@@ -557,7 +558,7 @@ label {
 
 .precioNumber {
   font-size: 2em;
-  background-color: #d80e0e;
+  background-color: rgba(47, 182, 182, 0.2);
   border-radius: 6px;
   padding: 12px; }
 
