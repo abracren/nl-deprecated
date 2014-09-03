@@ -1,7 +1,6 @@
 <?php get_header(); ?>
-							<div class="fullWidth oooBack2"> 
-								
-							</div>
+						  <?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
+
 
 			<div id="content">
 			

@@ -38,18 +38,6 @@ p {
 .header {
   margin-bottom: 0 !important; }
 
-.BlogHeader {
-  border-top: 1px solid #ddd;
-  text-align: center;
-  padding: 100px 0px 30px 0;
-  font-size: 3em;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 600;
-  font-size: 50px;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 1; }
-
 .fullWidth {
   min-width: 100%; }
 
@@ -57,7 +45,6 @@ p {
   background-color: #252424; }
 
 .oooBack2 {
-  min-height: 100px;
   border-top: 1px solid #ddd;
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIwLjIzIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -569,7 +556,10 @@ label {
   margin-top: 10px; }
 
 .precioNumber {
-  font-size: 2em; }
+  font-size: 2em;
+  background-color: #d80e0e;
+  border-radius: 6px;
+  padding: 12px; }
 
 .panelMoreCursos {
   background-color: #0c2d4c;
@@ -849,6 +839,32 @@ label.newsletter-label {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
   -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
   box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1); }
+
+.BlogHeader {
+  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/Freestyle.jpg);
+  opacity: 0.9;
+  border-bottom: 5px solid #0c2d4c;
+  border-top: 3px solid #0c2d4c;
+  text-align: center;
+  position: relative;
+  width: 100%; }
+  .BlogHeader h1 {
+    padding: 200px 0px 30px 0;
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 2;
+    color: #fff;
+    text-shadow: 2px 2px 4px #909696;
+    z-index: 99; }
+  .BlogHeader .blogHeaderOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1; }
 
 @media only screen and (max-width: 40em) {
   .imagenCurso img {
