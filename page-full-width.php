@@ -5,6 +5,8 @@ Template Name: Full Width (No Sidebar)
 ?>
 
 <?php get_header(); ?>
+						  <?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
+
 <div class="fullWidth oooBack2"> 
 								
 </div>
