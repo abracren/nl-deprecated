@@ -2,7 +2,9 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	  <?php get_template_part( 'partials/content', 'blogheader' ); ?>
 
-<div class="fullWidth oooBack"> </div>
+<div class="fullWidth oooBack2"> 
+								
+</div>
 			
 			<div id="content">
 			
