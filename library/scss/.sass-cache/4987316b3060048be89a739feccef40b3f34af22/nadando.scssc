@@ -1,7 +1,7 @@
 3.3.7 (Maptastic Maple)
-135d0f6431097fab7b7b9167560085187b74da2a
+24ce7519f7cda3e8f62b930d1a16cfa605afdd4b
 o:Sass::Tree::RootNode:@has_childrenT:
-@linei:@template"<ã@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+@linei:@template";ã@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
 
 $mycolor: #0c2d4c;
 $magellan: #252424;
@@ -1258,13 +1258,13 @@ label.newsletter-label {
 
     position: fixed;
     width: 100%;
-    height: 600px;
+    height: 100%;
     z-index: -1;
     top: 0;
 }
 .BlogHeader2{
    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/wave.svg) no-repeat;
-    background-position: center 350px;
+    background-position: center 490px;
     position: fixed;
     background-size: cover;
     width: 100%;
@@ -3339,10 +3339,9 @@ covero;?;@o;	;@;o;;iè;i;o;;iè;i;@;iè;A;B;Co;	;@;o;
 fixedo;?;@o;	;@;o;;ié;i;o;;ié;i;@;ié;A;B;Co;	;@;o;;ié;i;o;;ié;i
 ;@;	@;
 [ ;.["
-width;o;	;@;@bP;@fP;@;#i ;o;;ié;o;	;@;o;;ié;i;o;;ié;i;@;o;;	@;!;";"	100%o;?;@o;	;@;o;;iê;i;o;;iê;i;@;iê;A;B;Co;	;@;o;;iê;i;o;;iê;i
+width;o;	;@;@bP;@fP;@;#i ;o;;ié;o;	;@;o;;ié;i;o;;ié;i;@;o;;	@;!;";"	100%o;?;@o;	;@;o;;iê;i;o;;iê;i;@;iê;A;B;Co;	;@;o;;iê;i;o;;iê;i
 ;@;	@;
-[ ;.["height;o;	;@;@sP;@wP;@;#i ;o;;iê;o;	;@;o;;iê;i;o;;iê;i;@;o;;	@;!;";"
-600pxo;?;@o;	;@;o;;ië;i;o;;ië;i;@;ië;A;B;Co;	;@;o;;ië;i;o;;ië;i
+[ ;.["height;o;	;@;@sP;@wP;@;#i ;o;;iê;o;	;@;o;;iê;i;o;;iê;i;@;o;;	@;!;";"	100%o;?;@o;	;@;o;;ië;i;o;;ië;i;@;ië;A;B;Co;	;@;o;;ië;i;o;;ië;i
 ;@;	@;
 [ ;.["z-index;o;	;@;@„P;@ˆP;@;#i ;o;;ië;o;	;@;o;;ië;i;o;;ië;i;@;o;;	@;!;";"-1o;?;@o;	;@;o;;iì;i;o;;iì;i;@;iì;A;B;Co;	;@;o;;iì;i;o;;iì;i
 ;@;	@;
@@ -3350,7 +3349,7 @@ width;o;	;@;@bP;@fP;@;#i ;o;;ié;o;	;@;o;;ié;i;o;;
 [o;?;@o;	;@;o;;iï;is;o;;iï;i;@;iï;A;B;Co;	;@;o;;iï;i;o;;iï;i	;@;	@;
 [ ;.["background;o;	;@;@¿P;@ÃP;@;#i ;o;Z;@;iï;[;\;	@;][o;	;@;iï;o;	;@;o;;iï;ii;o;;iï;i;@;o;;	@;!;";"Yurl(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/wave.svg)o;	;@;iï;o;	;@;o;;iï;is;o;;iï;ij;@;o;;	@;!;";"no-repeat;o;	;@;o;;iï;is;o;;iï;i;@o;?;@o;	;@;o;;ið;i+;o;;ið;i;@;ið;A;B;Co;	;@;o;;ið;i;o;;ið;i
 ;@;	@;
-[ ;.["background-position;o;	;@;@ÛP;@ßP;@;#i ;o;;ið;o;	;@;o;;ið;i+;o;;ið;i;@;o;;	@;!;";"center 350pxo;?;@o;	;@;o;;iñ;i;o;;iñ;i;@;iñ;A;B;Co;	;@;o;;iñ;i;o;;iñ;i
+[ ;.["background-position;o;	;@;@ÛP;@ßP;@;#i ;o;;ið;o;	;@;o;;ið;i+;o;;ið;i;@;o;;	@;!;";"center 490pxo;?;@o;	;@;o;;iñ;i;o;;iñ;i;@;iñ;A;B;Co;	;@;o;;iñ;i;o;;iñ;i
 ;@;	@;
 [ ;.["position;o;	;@;@ìP;@ðP;@;#i ;o;;iñ;o;	;@;o;;iñ;i;o;;iñ;i;@;o;;	@;!;";"
 fixedo;?;@o;	;@;o;;iò;i ;o;;iò;i;@;iò;A;B;Co;	;@;o;;iò;i;o;;iò;i
