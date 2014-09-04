@@ -4544,6 +4544,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/Freestyle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184205,
+		"inputAbbreviatedPath": "\/imagesRoot\/Freestyle.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/Freestyle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesRoot\/Freestyle2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32703e+07,
+		"inputAbbreviatedPath": "\/imagesRoot\/Freestyle2.jpg",
+		"outputAbbreviatedPath": "\/imagesRoot\/Freestyle2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/gray-classic-search-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5718,6 +5740,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/content-blogheader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/content-blogindexheader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/content-blogindexheader.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -1,8 +1,8 @@
-<div class="fullWidth BlogHeader"> 
+<div class="fullWidth BlogHeader "> 
 
-    <div class="blogHeaderOverlay"></div>
-
-    <h1><?php the_title();?></h1>
-
+    
 
 </div>
+<div class="fullWidth BlogHeader2">
+	
+</div> 

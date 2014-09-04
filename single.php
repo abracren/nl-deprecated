@@ -1,6 +1,5 @@
-<?php get_header(); ?>
-  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-  <?php get_template_part( 'partials/content', 'blogheader' ); ?>
+<?php get_header(); ?><div class="blogPages">
+  <?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
 
 
 <div class="fullWidth oooBack2"> 
@@ -10,9 +9,11 @@
 			
 			<div id="content">
 
-				<div id="inner-content" class="row clearfix">
+				<div id="inner-content" class="row clearfix  blogPage equalBlog ">
 			
-					<div id="main" class="large-8 medium-8 columns first clearfix equalBlog" role="main">
+					<div id="main" class="large-8 medium-8 columns first clearfix " role="main">
+						  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 					
 					
 					    	<?php get_template_part( 'partials/loop', 'single' ); ?>
@@ -30,5 +31,6 @@
 				</div> <!-- end #inner-content -->
     
 			</div> <!-- end #content -->
+</div>
 
 <?php get_footer(); ?>

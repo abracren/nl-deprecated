@@ -9,7 +9,7 @@
 						<article id="post-not-found" class="hentry clearfix">
 						
 							<header class="article-header">
-								<h1><?php _e("Epic 404 - Article Not Found", "jointstheme"); ?></h1>
+								<h1><?php _e(" 404 - Elemento No Encontrado", "jointstheme"); ?></h1>
 							</header> <!-- end article header -->
 					
 							<section class="entry-content">
@@ -21,7 +21,7 @@
 							</section> <!-- end search section -->
 						
 							<footer class="article-footer">
-							    <p><?php _e("This is the 404.php template.", "jointstheme"); ?></p>
+							    <p><?php _e(".", "jointstheme"); ?></p>
 							</footer> <!-- end article footer -->
 					
 						</article> <!-- end article -->

@@ -1,4 +1,123 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+@media only screen and (max-width: 40em) {
+  .imagenCurso img {
+    min-width: 100% !important; }
+
+  .curseHeader.express {
+    min-height: 260px !important; }
+
+  .curseHeader {
+    min-height: 160px !important; }
+
+  .thinCurse .wideCurse_footer .wideCurseRight .precioExpress {
+    margin-top: 30px;
+    font-size: 1.3em;
+    font-weight: 100; }
+
+  .express .expressTitle {
+    top: 10px;
+    width: 90%; }
+    .express .expressTitle p {
+      font-size: .9em;
+      width: 96%; }
+
+  .magellanContainer LI {
+    width: 100% !important;
+    border-bottom: 1px solid #aaaaaa !important;
+    height: 40px; }
+
+  .curseHeader .cursoTitle p {
+    font-size: 2em; }
+
+  .curseHeader .cursoTitle {
+    top: 20px; }
+
+  .capTitulo {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
+    margin-left: 0px;
+    margin-top: 10px;
+    min-height: 50px; }
+
+  .capParrafo {
+    font-weight: normal;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 0; }
+
+  .slid {
+    min-height: 250px;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center; }
+
+  .title-area LI {
+    font-size: 2em; }
+
+  .name img {
+    margin-top: 5px; }
+
+  .owl-pagination {
+    position: absolute;
+    bottom: 25px;
+    z-index: 15;
+    width: 90%;
+    padding-left: 0;
+    margin-left: -10%;
+    list-style: none;
+    text-align: right;
+    left: inherit;
+    right: 15px; }
+
+  .block {
+    text-align: center; }
+
+  .headerConnect .section-title {
+    text-align: center !important;
+    font-size: 1.9em; }
+
+  p.cert-cta {
+    text-align: center; } }
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .top-bar-section UL LI a {
+    font-size: .81em;
+    padding: 0 18% !important; }
+
+  .connect-btn .connect-btn-hover {
+    font-size: .7em; }
+
+  .connect-btn .connect-news .connect-news-title {
+    font-size: 1.3em; }
+
+  .connect-btn .yt-video-play-btn {
+    margin: 50px auto; } }
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) {
+  .capTitulo {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
+    margin-left: -30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    min-height: 100px; }
+
+  .capParrafo {
+    font-weight: normal;
+    font-size: 2em;
+    margin-left: -30px;
+    margin-right: 30px; }
+
+  .slid {
+    min-height: 590px;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center; } }
+/* min-width 1025px, large screens */
 .parallelogram {
   margin: 0 0 0 -20px;
   -webkit-transform: skew(-20deg);
@@ -28,9 +147,6 @@ p {
   font-weight: normal;
   font-size: 1.1em;
   color: #333; }
-
-#content {
-  background-color: #fff; }
 
 #main {
   margin-top: 40px; }
@@ -350,7 +466,7 @@ p {
   border-right: 7px solid transparent;
   content: "";
   display: inline-block;
-  left: 45%;
+  left: 22.5%;
   position: absolute;
   top: -7px; }
 
@@ -828,7 +944,7 @@ label.newsletter-label {
   padding: 50px 0; }
 
 #inner-content {
-  background-color: #fafafa;
+  background-color: #fff;
   border: 1px solid #ddd;
   margin-bottom: 1px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
@@ -836,149 +952,27 @@ label.newsletter-label {
   box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1); }
 
 .BlogHeader {
-  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/Freestyle.jpg);
-  opacity: 0.9;
-  border-bottom: 5px solid #0c2d4c;
-  border-top: 3px solid #0c2d4c;
-  text-align: center;
-  position: relative;
-  width: 100%; }
-  .BlogHeader h1 {
-    padding: 70px 0px 80px 0;
-    font-size: 3em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0;
-    line-height: 2;
-    color: #fff;
-    z-index: 99; }
-  .BlogHeader .blogHeaderOverlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: -1; }
+  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/Freestyle2.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  top: 0; }
 
-#content {
-  background-color: #C4DBE7; }
+.BlogHeader2 {
+  background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/wave.svg) no-repeat;
+  background-position: center 350px;
+  position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 4000px;
+  z-index: -1;
+  top: 0; }
 
-@media only screen and (max-width: 40em) {
-  .imagenCurso img {
-    min-width: 100% !important; }
+.blogPages #content {
+  margin-top: 100px !important; }
 
-  .curseHeader.express {
-    min-height: 260px !important; }
-
-  .curseHeader {
-    min-height: 160px !important; }
-
-  .thinCurse .wideCurse_footer .wideCurseRight .precioExpress {
-    margin-top: 30px;
-    font-size: 1.3em;
-    font-weight: 100; }
-
-  .express .expressTitle {
-    top: 10px;
-    width: 90%; }
-    .express .expressTitle p {
-      font-size: .9em;
-      width: 96%; }
-
-  .magellanContainer LI {
-    width: 100% !important;
-    border-bottom: 1px solid #aaaaaa !important;
-    height: 40px; }
-
-  .curseHeader .cursoTitle p {
-    font-size: 2em; }
-
-  .curseHeader .cursoTitle {
-    top: 20px; }
-
-  .capTitulo {
-    font-size: 2em;
-    font-weight: 600;
-    font-family: 'Titillium Web', sans-serif;
-    line-height: 1;
-    margin-left: 0px;
-    margin-top: 10px;
-    min-height: 50px; }
-
-  .capParrafo {
-    font-weight: normal;
-    font-size: 1em;
-    margin-left: 0px;
-    margin-right: 0; }
-
-  .slid {
-    min-height: 250px;
-    background-size: 100% auto !important;
-    background-repeat: no-repeat !important;
-    background-position: center; }
-
-  .title-area LI {
-    font-size: 2em; }
-
-  .name img {
-    margin-top: 5px; }
-
-  .owl-pagination {
-    position: absolute;
-    bottom: 25px;
-    z-index: 15;
-    width: 90%;
-    padding-left: 0;
-    margin-left: -10%;
-    list-style: none;
-    text-align: right;
-    left: inherit;
-    right: 15px; }
-
-  .block {
-    text-align: center; }
-
-  .headerConnect .section-title {
-    text-align: center !important;
-    font-size: 1.9em; }
-
-  p.cert-cta {
-    text-align: center; } }
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .top-bar-section UL LI a {
-    font-size: .81em;
-    padding: 0 18% !important; }
-
-  .connect-btn .connect-btn-hover {
-    font-size: .7em; }
-
-  .connect-btn .connect-news .connect-news-title {
-    font-size: 1.3em; }
-
-  .connect-btn .yt-video-play-btn {
-    margin: 50px auto; } }
-/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-@media only screen and (min-width: 64.063em) {
-  .capTitulo {
-    font-size: 60px;
-    font-weight: 600;
-    font-family: 'Titillium Web', sans-serif;
-    line-height: 1;
-    margin-left: -30px;
-    margin-right: 30px;
-    margin-top: 10px;
-    min-height: 100px; }
-
-  .capParrafo {
-    font-weight: normal;
-    font-size: 2em;
-    margin-left: -30px;
-    margin-right: 30px; }
-
-  .slid {
-    min-height: 590px;
-    background-size: 100% auto !important;
-    background-repeat: no-repeat !important;
-    background-position: center; } }
-/* min-width 1025px, large screens */
+.top-bar {
+  z-index: 99 !important; }
