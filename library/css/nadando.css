@@ -152,7 +152,9 @@ p {
   background-color: #fff; }
 
 #main {
-  margin-top: 40px; }
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .header {
   margin-bottom: 0 !important; }
@@ -946,7 +948,7 @@ label.newsletter-label {
   padding: 50px 0; }
 
 #inner-content {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.91);
   border: 1px solid #ddd;
   margin-bottom: 1px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
@@ -984,7 +986,7 @@ body {
   z-index: 99 !important; }
 
 .cursosMain #inner-content {
-  background-color: #fff;
+  background-color: white;
   border: 0px solid #ddd;
   margin-bottom: 1px;
   -webkit-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
