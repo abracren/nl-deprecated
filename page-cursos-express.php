@@ -5,6 +5,7 @@ Template Name: Cursos Express
 ?>
 <?php $count = 0;?>
 <?php get_header(); ?>
+<div class="cursosMain">
  <?php get_template_part( 'partials/content', 'expressheaderImagen' ); ?>
 			
 			<div id="content">
@@ -244,5 +245,5 @@ Template Name: Cursos Express
 				</div> <!-- end #inner-content -->
     
 			</div> <!-- end #content -->
-
+</div>
 <?php get_footer(); ?>

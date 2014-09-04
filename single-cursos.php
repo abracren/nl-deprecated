@@ -89,7 +89,7 @@ if($row_count>8){
 
 				<div id="inner-content" class="row clearfix">
 			
-					<div id="main" class="large-8 medium-8 columns first clearfix equalBlog" role="main">
+					<div id="main" class=" fixedSidebarMain large-8 medium-8 columns first clearfix equalBlog" role="main">
 					
 					
 					    	<?php get_template_part( 'partials/content', 'curso' ); ?>

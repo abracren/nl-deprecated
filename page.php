@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	  <?php get_template_part( 'partials/content', 'blogheader' ); ?>
+<div class="blogPages">
+
+<?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
 
 <div class="fullWidth oooBack2"> 
 								
@@ -12,7 +13,8 @@
 			
 				    <div id="main" class="large-8 medium-8 columns" role="main">
 
-					
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 					    	<?php get_template_part( 'partials/loop', 'page' ); ?>
 					    					
 					    <?php endwhile; else : ?>
@@ -29,4 +31,5 @@
     
 			</div> <!-- end #content -->
 
+</div>
 <?php get_footer(); ?>

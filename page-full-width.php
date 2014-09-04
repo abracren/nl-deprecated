@@ -5,7 +5,9 @@ Template Name: Full Width (No Sidebar)
 ?>
 
 <?php get_header(); ?>
-						  <?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
+<div class="blogPages">
+
+<?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
 
 <div class="fullWidth oooBack2"> 
 								
@@ -32,5 +34,7 @@ Template Name: Full Width (No Sidebar)
 				</div> <!-- end #inner-content -->
     
 			</div> <!-- end #content -->
+
+</div >			
 
 <?php get_footer(); ?>

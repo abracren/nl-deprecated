@@ -154,7 +154,7 @@ $magellan: #252424;
         margin-right: 30px;
     }
     .slid {
-        min-height: 590px;
+        min-height: 550px;
         background-size: 100% auto !important;
         background-repeat: no-repeat !important;
         background-position: center;
@@ -214,7 +214,7 @@ p {
 .blogPage {}
 
 #content {
-    //background-color: #fff;
+    background-color: #fff;
 }
 
 #main {
@@ -443,7 +443,7 @@ p {
         text-transform: uppercase;
         font-family: 'Titillium Web', sans-serif;
         text-align: center;
-        margin: 10px;
+       // margin: 10px;
         border-bottom: 1px solid #ddd;
         h4 {
             color: #242424;
@@ -1272,12 +1272,12 @@ label.newsletter-label {
 
 
 body {
-    //background-color: #ddd;
+    background-color: #ddd;
 }
 
 .blogPages {
     #content {
-        
+        background-color: transparent!important;
         margin-top: 100px !important;
     }
 
@@ -1289,4 +1289,19 @@ body {
 
 .dropDown {
     //margin-left: -20%;
+}
+
+
+.cursosMain{
+#inner-content {
+    background-color: #fff;
+    border: 0px solid #ddd;
+    margin-bottom: 1px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+    box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+}
+
+
+
 }

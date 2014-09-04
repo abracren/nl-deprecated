@@ -80,7 +80,7 @@ $(document).ready(function() {
 });
    
 
-jQuery('#main, #cursosSidebar').theiaStickySidebar({
+jQuery('.fixedSidebarMain, #cursosSidebar').theiaStickySidebar({
       // Settings
       additionalMarginTop: 80
     });
