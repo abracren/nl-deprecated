@@ -62,6 +62,8 @@ if( function_exists('acf_add_options_page') ) {
 global $previousday;
 $previousday = '';
 }
+add_image_size( 'thumb_prensaGallery', '300', '390', true );
+
 
 /*********************
 MENUS & NAVIGATION
@@ -126,6 +128,12 @@ function joints_main_nav_fallback() {
 function joints_footer_links_fallback() {
 	/* you can put a default here if you like */
 }
+
+
+//////////////////////////////////////////////////////
+
+
+
 
 /*********************
 SIDEBARS

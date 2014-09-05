@@ -33,6 +33,12 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
+		<!--[if gte IE 9]>
+		  <style type="text/css">
+		    .gradient {
+		       filter: none;
+		    }
+		  </style>
 
 	</head>
 

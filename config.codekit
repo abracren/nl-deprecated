@@ -4537,7 +4537,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16297,
+		"initialSize": 661,
 		"inputAbbreviatedPath": "\/imagesRoot\/diagonal-ex-foot.png",
 		"outputAbbreviatedPath": "\/imagesRoot\/diagonal-ex-foot.png",
 		"outputPathIsOutsideProject": 0,
@@ -4559,7 +4559,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.32703e+07,
+		"initialSize": 126141,
 		"inputAbbreviatedPath": "\/imagesRoot\/Freestyle2.jpg",
 		"outputAbbreviatedPath": "\/imagesRoot\/Freestyle2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4880,7 +4880,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 161814,
+		"initialSize": 180774,
 		"inputAbbreviatedPath": "\/imagesRoot\/mar.jpg",
 		"outputAbbreviatedPath": "\/imagesRoot\/mar.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4957,7 +4957,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19276,
+		"initialSize": 4543,
 		"inputAbbreviatedPath": "\/imagesRoot\/reg-caption2.png",
 		"outputAbbreviatedPath": "\/imagesRoot\/reg-caption2.png",
 		"outputPathIsOutsideProject": 0,
@@ -5708,11 +5708,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-ehitepageFull.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-ehitepageFull.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-full-width.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-full-width.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-prensa.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-prensa.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-team.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-team.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5812,6 +5839,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/content-expressheaderImagen.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/content-headerShadow.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/content-headerShadow.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
