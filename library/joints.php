@@ -348,8 +348,8 @@ add_filter( 'nav_menu_css_class', 'required_active_nav_class', 10, 2 );
 // Search Form
 function joints_wpsearch($form) {
 	$form = '<form role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
-	<label class="screen-reader-text" for="s">' . __('Search for:', 'jointstheme') . '</label>
-	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="'.esc_attr__('Search the Site...','jointstheme').'" />
+	<label class="screen-reader-text" for="s">' . __('Buscar:', 'jointstheme') . '</label>
+	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="'.esc_attr__('Buscar...','jointstheme').'" />
 	<input type="submit" id="searchsubmit" class="button" value="'. esc_attr__('Search') .'" />
 	</form>';
 	return $form;

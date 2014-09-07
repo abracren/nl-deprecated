@@ -19,7 +19,7 @@
 								</header> <!-- end article header -->
 					
 								<section class="entry-content">
-								    <?php the_excerpt('<span class="read-more">' . __('Read more &raquo;', 'jointstheme') . '</span>'); ?>
+								    <?php the_excerpt('<span class="read-more">' . __('Leer más &raquo;', 'jointstheme') . '</span>'); ?>
 					
 								</section> <!-- end article section -->
 						
@@ -36,8 +36,8 @@
 						    <?php } else { ?>
 						        <nav class="wp-prev-next">
 						            <ul class="clearfix">
-						    	        <li class="prev-link"><?php next_posts_link(__('&laquo; Older Entries', "jointstheme")) ?></li>
-						    	        <li class="next-link"><?php previous_posts_link(__('Newer Entries &raquo;', "jointstheme")) ?></li>
+						    	        <li class="prev-link"><?php next_posts_link(__('&laquo; Entadras Antiguas', "jointstheme")) ?></li>
+						    	        <li class="next-link"><?php previous_posts_link(__('Entradas Nuevas &raquo;', "jointstheme")) ?></li>
 						            </ul>
 						        </nav>
 						    <?php } ?>		
@@ -46,16 +46,16 @@
 					
     					    <article id="post-not-found" class="hentry clearfix">
     					    	<header class="article-header">
-    					    		<h1><?php _e("Sorry, No Results.", "jointstheme"); ?></h1>
+    					    		<h1><?php _e("No hay resultados.", "jointstheme"); ?></h1>
     					    	</header>
     					    	<section class="entry-content">
-    					    		<p><?php _e("Try your search again.", "jointstheme"); ?></p>
+    					    		<p><?php _e("Prueba de Nuevo.", "jointstheme"); ?></p>
     					    	</section>
     					    	<section class="search">
                                     			<p><?php get_search_form(); ?></p>
                 		                </section> <!-- end search section -->
     					    	<footer class="article-footer">
-    					    	    <p><?php _e("This is the error message in the search.php template.", "jointstheme"); ?></p>
+    					    	    <p><?php _e(".", "jointstheme"); ?></p>
     					    	</footer>
     					    </article>
 					

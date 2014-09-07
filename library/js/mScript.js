@@ -75,7 +75,7 @@ $(document).ready(function() {
   });
 });
 
-	$('.equalBlog').matchHeight();
+    $('.equalBlog').matchHeight();
 
 });
    
@@ -87,23 +87,7 @@ jQuery('.fixedSidebarMain, #cursosSidebar').theiaStickySidebar({
 
 
 
-            // $(function() {
-            //     var offset = $(".styckPanel").offset(); //Sets which element is scrollable. In this case it's the div .sidebar
-            //     var topPadding = 150;  //Set how much top-padding the element has.
-            //     $(window).scroll(function() {
-            //         if ($(window).scrollTop() > offset.top) {
-            //             $(".styckPanel").stop().animate({   //Sets which element is scrollable. In this case it's the div .sidebar
-            //                 marginTop: $(window).scrollTop() - offset.top + topPadding
-            //             });
-            //         } else {
-            //             $(".styckPanel").stop().animate({   //Sets which element is scrollable. In this case it's the div .sidebar
-            //                 marginTop: 0
-            //             });
-            //         };
-            //     });
-            // });
-
-
+         
 $('.oooBack').waypoint(function() {
 //$('.backMenu').toggle();
 if(ExpressOpen===1){

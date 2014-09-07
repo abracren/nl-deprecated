@@ -13,7 +13,10 @@
 				<?php get_template_part( 'partials/content', 'byline' ); ?>
 
 		<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>	</footer> <!-- end article footer -->
-									
-	<?php comments_template(); ?>	
+		<?php comment_form()?>
+		<p></p>							
+		<p></p>							
+		<p></p>							
+	<?php //comments_template(); ?>	
 													
 </article> <!-- end article -->

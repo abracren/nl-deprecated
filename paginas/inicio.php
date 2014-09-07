@@ -15,7 +15,18 @@ $row_count = count($rows);
 //echo $row_count;
 //the_field('titulo','option');
 ?>
-<div class="fullWidth aaaBack"> 
+
+
+<div class="fullWidth FraseBack marginRest hide-for-small">
+	<div class="row">
+	  <div class="small-12 medium-12 large-12 columns">
+	  	Todos o casi todos los que nadamos distinguimos el placer de nadar por tres de sus grandes atributos naturales: El Movimiento, la Sensación y la Excelencia.
+	  </div>
+	</div>
+</div>
+
+
+<div class="fullWidth aaaBack "> 
     <div class="row">
         <div class="medium-12 columns">
             <ul class=" small-block-grid-1 medium-block-grid-<?php echo $row_count;?> underSlide">
@@ -71,11 +82,11 @@ $row_count = count($rows);
 
 	<div class="row">
 	    <div class="medium-6 columns small-12 bigger">
-	        <a class="connect-btn connect-horiz-image" href="#" target="_blank">
+	        <a class="connect-btn connect-horiz-image" href="<?php the_field('recuadro_grande_texto_link','option');?>" target="_blank">
 	            <div class="connect-btn-hover text-center biggest">
 	                <p><?php the_field('recuadro_grande','option');?></p>
 	                <p>
-	                    <button class="button btn-lg " >MAS INFO</button>
+	                    <button class="button btn-lg " >SUSCRIPCIÓN</button>
 	                </p>
 	            </div>
 	            <img src="<?php the_field('recuadro_grande_Imagen','option');?>" alt="<?php the_field('recuadro_grande','option');?>">
@@ -99,7 +110,7 @@ $row_count = count($rows);
 						?>
 							
 	    <div class="medium-3 columns small-6">
-		        <a class="connect-btn" href="" target="_blank">
+			        <a class="connect-btn" href="<?php the_permalink(); ?>" target="_blank">
 		            <div class="connect-btn-hover connect-news" style="padding-top:20px;">
 		                <h5 class="connect-news-date"><?php the_date( );?></h5> 
 		                <hr class="connect-news-rule">
@@ -119,7 +130,7 @@ $row_count = count($rows);
 
 	<div class="row">
 	    <div class="medium-3 columns small-6">
-	        <a class="connect-btn" href="http://www.youtube.com/embed/<?php the_field('video_1','option');?>" target="_blank">
+	        <a class="connect-btn" rel="lightbox" href="https://www.youtube.com/watch?v=<?php the_field('video_1','option');?>" target="_blank">
 	            <img class="yt-video-play-btn" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/yt-video-play-btn.png">
 	            <img class="connect-bg-img hoverZoomLink" src="<?php the_field('video_1_imagen','option');?>">
 	        </a>
@@ -135,7 +146,7 @@ $row_count = count($rows);
 						?>
 												
 			    <div class="medium-3 columns small-6">
-			        <a class="connect-btn" href="http://www.projectaware.org/update/noaa-economic-study-shows-marine-debris-costs-california-residents-millions-dollars" target="_blank">
+			        <a class="connect-btn" href="<?php the_permalink(); ?>" target="_blank">
 			            <div class="connect-btn-hover connect-news">
 
 
@@ -156,13 +167,15 @@ $row_count = count($rows);
 			?>
 	    <div class=" visible-sm"></div>
 	    <div class="medium-6 columns small-12 bigger ">
-	        <a class="connect-btn connect-horiz-image" href="http://www.youtube.com/embed/<?php the_field('video_2','option');?>" target="_blank">
+	        <a class="connect-btn connect-horiz-image"rel="lightbox" href="https://www.youtube.com/watch?v=<?php the_field('video_2','option');?>" target="_blank">
 	            <img class="yt-video-play-btn" src="<?php echo get_template_directory_uri(); ?>/imagesRoot/yt-video-play-btn.png">
 	            <img class="connect-bg-img" src="<?php the_field('video_2_imagen','option');?>">
 	        </a>
 	    </div>
 	</div>
+
 </div>	<!--End GRAY-->
+
 
 <?php get_footer(); ?>
 
@@ -176,10 +189,17 @@ $row_count = count($rows);
   owl.owlCarousel({
     navigation : false,
     singleItem : true,
-    transitionStyle : "fade"
+    transitionStyle : "fade",
+    autoPlay : 10000,
+
   });
  
  
 
 });
 </script>
+
+
+<div class="row">
+  <div class="small-12 medium-12 large-12 columns"></div>
+</div>

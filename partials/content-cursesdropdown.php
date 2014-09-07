@@ -19,9 +19,9 @@ $row_count = count($rows);
 
                     <li>      <a href="<?php the_sub_field('link');?>">
                         <div class="block">
-                            <div class="textBlock">
-                                <h4 class=""><?php the_sub_field('titulo');?> </h4>
-                           <?php the_sub_field('texto_link');?>
+                            <div class="textBlock  textBlokcursoPremiumFrontPage">
+                                <h4 class="cursoPremiumFrontPage"><?php the_sub_field('titulo');?> </h4>
+                                <?php the_sub_field('texto_link');?>
                                 </br>
                             </div>
 

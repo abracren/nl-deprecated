@@ -14,6 +14,7 @@ single-bookmarks.php
 ?>
 
 <?php get_header(); ?>
+<div class="singleCursos">
 	  <div class="backMenu" style=""></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -133,7 +134,7 @@ if($row_count>8){
 			</div>
 			</div> -->
 			<?php the_field('contenido_extra');?>
-			
+	</div>		
 <?php get_footer(); ?>
 
 <script type="text/javascript">

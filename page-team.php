@@ -9,6 +9,7 @@ Template Name: Team
 
 ?>
 <?php get_header(); ?>
+<div class="teamPage">
 <?php get_template_part( 'partials/content', 'headerShadow' ); ?>
 
 <?php 
@@ -39,7 +40,7 @@ $row_count = count($rows);?>
 <p></p>
 
       </div>
-        <div class="row hide-for-small"">
+        <div class="row hide-for-small">
             <div class="small-12 small-centered columns">
 
                 <ul class="medium-block-grid-<?php echo $row_count; ?>">
@@ -172,7 +173,7 @@ $row_count = count($rows);?>
 <!-- SMALL END -->
 
         <div class="row">
-          <div class="small-12 medium-6 large-6 columns">
+          <div class="small-12 medium-6 large-6 columns paddedTeam">
 <H2><?php the_field('titulo_'); ?></H2>        
 
 
@@ -226,5 +227,5 @@ $row_count = count($rows);?>
     
 			</div> <!-- end #content -->
 </div>
-
+</div>
 <?php get_footer(); ?>

@@ -1,14 +1,21 @@
 <?php
 /*
-Template Name: Pagina blanca Full
+Template Name: Blanca Ancho completo
 */
 ?>
+<?php
 
+
+
+?>
 <?php get_header(); ?>
+<?php get_template_part( 'partials/content', 'headerShadow' ); ?>
+
+
 
 <div class="cursosMain">
 
-<?php get_template_part( 'partials/content', 'blogindexheader' ); ?>
+<?php //get_template_part( 'partials/content', 'blogindexheader' ); ?>
 
 <div class="fullWidth oooBack2"> 
 								
@@ -17,11 +24,11 @@ Template Name: Pagina blanca Full
 			<div id="content">
 			
 				<div id="inner-content" class="row clearfix">
-			
-				    <div id="main" class="large-12 medium-12 columns" role="main">
-					
-					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					
+					<div id="main" class="large-12 medium-12 columns" role="main">
+
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+					    	<?php get_template_part( 'partials/loop', 'page' ); ?>
 					    					
 					    <?php endwhile; else : ?>
 					
@@ -29,6 +36,8 @@ Template Name: Pagina blanca Full
 
 					    <?php endif; ?>
 
+
+                  
     				</div> <!-- end #main -->
 				    
 				</div> <!-- end #inner-content -->
@@ -37,3 +46,5 @@ Template Name: Pagina blanca Full
 </div>
 
 <?php get_footer(); ?>
+
+			

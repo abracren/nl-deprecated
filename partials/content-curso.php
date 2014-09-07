@@ -11,7 +11,7 @@
         // display a sub field value
         ?>
         	<?php $link =sanitize_title(get_sub_field('titulo_menu'),true);?>
-        	<div id="<?php echo $link?>" class="scrollto">
+        	<div id="<?php echo $link?>" class="scrollto seccionCurso">
         	<h2 class=""><?php the_sub_field('titulo');?></h2>
         	<?php the_sub_field('contenido');?>
         </div>

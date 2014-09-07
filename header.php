@@ -67,9 +67,9 @@
 							</div>
 							<div class="medium-4 large-2 columns">
 								<ul class="soc">
-									    <li><a class="soc-twitter" href="#"></a></li>
-									    <li><a class="soc-facebook" href="#"></a></li>
-									    <li><a class="soc-youtube soc-icon-last" href="#"></a></li>
+									    <li><a class="soc-twitter" href="https://twitter.com/nadandolibre"></a></li>
+									    <li><a class="soc-facebook" href="https://www.facebook.com/nadandolibre"></a></li>
+									    <li><a class="soc-youtube soc-icon-last" href="https://www.youtube.com/user/nadandolibre"></a></li>
 								</ul>
 							</div>
 							<!-- <div class="medium-4 columns buttonTop">
